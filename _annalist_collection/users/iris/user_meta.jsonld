@@ -1,0 +1,21 @@
+{
+  "rdfs:label": "Iris Garrelfs",
+  "rdfs:comment": "User iris: permissions for Iris in collection procedural_blending_ig1",
+  "annal:user_uri": "mailto:iris@irisgarrelfs.com",
+  "annal:type_id": "_user",
+  "annal:url": "/annalist/c/procedural_blending_ig1/d/_user/iris/",
+  "annal:user_permissions": [
+    "VIEW",
+    "CREATE",
+    "UPDATE",
+    "DELETE",
+    "CONFIG",
+    "ADMIN"
+  ],
+  "annal:id": "iris",
+  "@id": "./",
+  "@type": [
+    "annal:User"
+  ],
+  "annal:type": "annal:User"
+}

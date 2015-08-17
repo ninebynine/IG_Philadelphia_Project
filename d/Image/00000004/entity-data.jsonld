@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "",
+  "rdfs:comment": "",
+  "annal:type_id": "Image",
+  "coll:image": "",
+  "annal:id": "00000004",
+  "@id": "./",
+  "@type": [
+    "coll:Image",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

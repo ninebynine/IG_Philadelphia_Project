@@ -1,0 +1,19 @@
+{
+  "rdfs:label": "Example audio clip",
+  "rdfs:comment": "Example audio",
+  "coll:audio_clip": {
+    "upload_name": "Uploaded_audio",
+    "resource_name": "Uploaded_audio.mp3",
+    "uploaded_size": 5965824,
+    "uploaded_file": "01-White Bird.mp3",
+    "resource_type": "audio/mpeg"
+  },
+  "annal:type_id": "Audio",
+  "annal:id": "exampl_audio_clip",
+  "@id": "./",
+  "@type": [
+    "coll:Audio",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

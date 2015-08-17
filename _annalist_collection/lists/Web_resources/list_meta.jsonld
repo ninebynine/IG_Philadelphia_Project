@@ -1,0 +1,26 @@
+{
+  "rdfs:label": "List of web resources",
+  "rdfs:comment": "List of web resources",
+  "annal:default_view": "Default_view",
+  "annal:default_type": "Web_resource",
+  "annal:record_type": "coll:Web_resource",
+  "annal:type_id": "_list",
+  "annal:list_entity_selector": "\"coll:Web_resource\" in [@type]",
+  "annal:display_type": "List",
+  "annal:list_fields": [
+    {
+      "annal:field_placement": "small:0,12;medium:0,4",
+      "annal:field_id": "Entity_id"
+    },
+    {
+      "annal:field_placement": "small:0,12;medium:4,8",
+      "annal:field_id": "Entity_label"
+    }
+  ],
+  "annal:id": "Web_resources",
+  "@id": "./",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:type": "annal:List"
+}

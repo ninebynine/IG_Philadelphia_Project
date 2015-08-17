@@ -1,0 +1,19 @@
+{
+  "rdfs:label": "Image Groupings and Sequences",
+  "rdfs:comment": "An excerpt from sketch book working out image groupings and a sequence.",
+  "annal:type_id": "Image",
+  "coll:image": {
+    "upload_name": "Uploaded_image",
+    "resource_name": "Uploaded_image.png",
+    "uploaded_size": 1210896,
+    "uploaded_file": "Fog_ImageGroupings-sequences.pdf",
+    "resource_type": "application/pdf"
+  },
+  "annal:id": "Image_Groupings_Sequence",
+  "@id": "./",
+  "@type": [
+    "coll:Image",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

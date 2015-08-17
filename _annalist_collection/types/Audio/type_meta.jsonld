@@ -1,0 +1,15 @@
+{
+  "rdfs:label": "Uploaded audio clip",
+  "rdfs:comment": "Uploaded audio clip with bearing on the project",
+  "annal:field_aliases": [],
+  "annal:type_id": "_type",
+  "annal:uri": "coll:Audio",
+  "annal:type_list": "Uploaded_audio",
+  "annal:id": "Audio",
+  "@id": "./",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_view": "Uploaded_audio"
+}

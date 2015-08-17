@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Philadelphia Smoke Images 1",
+  "rdfs:comment": "A set of images from the \"The Smoke Control Lantern Slide Collection\" at the University of Pittsburgh. From treehugger.com.",
+  "coll:web_resource": "http://www.treehugger.com/slideshows/environmental-policy/think-air-quality-regulations-dont-matter-look-pittsburgh-1940s/",
+  "annal:type_id": "Web_resource",
+  "annal:id": "Philadelphia_LanternArchive_1",
+  "@id": "./",
+  "@type": [
+    "coll:Web_resource",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

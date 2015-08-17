@@ -1,0 +1,19 @@
+{
+  "rdfs:label": "Cropped version of London 1",
+  "rdfs:comment": "This is the cropped version of London 1.",
+  "annal:type_id": "Image",
+  "@type": [
+    "coll:Image",
+    "annal:EntityData"
+  ],
+  "annal:id": "London_1_crop",
+  "@id": "./",
+  "coll:image": {
+    "upload_name": "Uploaded_image",
+    "resource_name": "Uploaded_image.jpg",
+    "uploaded_size": 57863,
+    "uploaded_file": "London1sm.jpg",
+    "resource_type": "image/jpeg"
+  },
+  "annal:type": "annal:EntityData"
+}

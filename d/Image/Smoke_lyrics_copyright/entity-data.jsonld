@@ -1,0 +1,19 @@
+{
+  "rdfs:label": "Smoke Lyrics & copyright",
+  "rdfs:comment": "The lyrics for the songs \"Smoke gets in your eyes\" and information on copyright.  Smoke Lyrics & copyright.\r\n\r\nWriter(s): Terry Skinner, Buck Ram, J. L. Wallace, Otto Harbach, Jerome Kern, Kenneth E. Bell\r\n\r\nCopyright: Chappell Music Ltd., A. M. C. Inc., Polygram International Music Publishing Ltd., Universal - Songs Of Polygram Int. Inc., T.B. Harms Co., Universal Music Corp\r\n",
+  "annal:type_id": "Image",
+  "@type": [
+    "coll:Image",
+    "annal:EntityData"
+  ],
+  "annal:id": "Smoke_lyrics_copyright",
+  "@id": "./",
+  "coll:image": {
+    "upload_name": "Uploaded_image",
+    "resource_name": "Uploaded_image.png",
+    "uploaded_size": 41521,
+    "uploaded_file": "SmokeLyrics.pdf",
+    "resource_type": "application/pdf"
+  },
+  "annal:type": "annal:EntityData"
+}

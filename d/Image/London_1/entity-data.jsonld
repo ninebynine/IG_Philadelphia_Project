@@ -1,0 +1,19 @@
+{
+  "rdfs:label": "London image 1",
+  "rdfs:comment": "First image of the sequence. Everything else is derived from this",
+  "annal:type_id": "Image",
+  "@type": [
+    "coll:Image",
+    "annal:EntityData"
+  ],
+  "annal:id": "London_1",
+  "@id": "./",
+  "coll:image": {
+    "upload_name": "Uploaded_image",
+    "resource_name": "Uploaded_image.jpg",
+    "uploaded_size": 40829,
+    "uploaded_file": "London1.jpg",
+    "resource_type": "image/jpeg"
+  },
+  "annal:type": "annal:EntityData"
+}

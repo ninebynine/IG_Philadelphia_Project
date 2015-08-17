@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Transition Test 1",
+  "rdfs:comment": "This clip is a first test of how the fog video traditions might use. Hosted on YouTube.",
+  "coll:web_resource": "http://youtu.be/-olwZWaIVrY",
+  "annal:type_id": "Web_resource",
+  "annal:id": "Fog_video_test1",
+  "@id": "./",
+  "@type": [
+    "coll:Web_resource",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

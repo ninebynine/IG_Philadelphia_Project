@@ -1,0 +1,19 @@
+{
+  "rdfs:label": "Frame-flow sketch",
+  "rdfs:comment": "A sketch of a frame-flow idea linking two still images through a pure \"fog\" image.",
+  "annal:type_id": "Image",
+  "@type": [
+    "coll:Image",
+    "annal:EntityData"
+  ],
+  "annal:id": "sketch1",
+  "@id": "./",
+  "coll:image": {
+    "upload_name": "Uploaded_image",
+    "uploaded_size": 54830,
+    "resource_name": "Uploaded_image.jpg",
+    "uploaded_file": "sketch1-frames-ed.jpg",
+    "resource_type": "image/jpeg"
+  },
+  "annal:type": "annal:EntityData"
+}

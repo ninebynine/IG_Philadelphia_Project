@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "A Description of the 1952 London fog",
+  "rdfs:comment": "A Description of the 1952 London fog from the Met Office website.",
+  "coll:web_resource": "http://www.metoffice.gov.uk/learning/learn-about-the-weather/weather-phenomena/case-studies/great-smog",
+  "annal:type_id": "Web_resource",
+  "annal:id": "MetOffice_1952_fog",
+  "@id": "./",
+  "@type": [
+    "coll:Web_resource",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

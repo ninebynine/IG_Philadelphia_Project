@@ -1,0 +1,34 @@
+{
+  "@id": "./",
+  "rdfs:label": "Log Entry 4",
+  "rdfs:comment": "This morning I\u2019ve been working the log data into Annalist; Graham had set categories up for me and talked me through the procedures. I\u2019m getting understand this a bit better. Re-reading the log entries so far makes me wonder how much information might be useful, and in what format this needs to be done for others to understand descriptions.\r\nWould a picture of my studio be useful for example?\r\n\r\nIn the meantime, I played around with the fog-frames idea. It changed a bit whilst playing around in Photoshop. Basically, I cropped and then stamped fog onto the images, saving each incarnation. This should yield a little animations sequence when imported into Premiere. The example image sequences below give a rough example of the idea.\r\n\r\nI'm also trying to crate the sequence in Premiere, but I am a bit rusty and it takes longer than anticipated.\r\n\r\nRelaxing with the remainder of last night's episode of Stargate Atlantis before editing a short and crude clip together. Not sure if this idea really works. Or, if it does in principle, whether I like it. Anyway, I've uploaded the clip to YouTube and will come back to it tomorrow. [Find the link here](https://youtu.be/-olwZWaIVrY).\r\n\r\n## List of tools so far:\r\n* Word\r\n+ Adobe Photoshop\r\n+ Adobe Premiere \r\n+ Paper\r\n+ Pen\r\n+ Annalist\r\n+ web\r\n+ markdown",
+  "coll:resources": [
+    {
+      "coll:web_resource_m": "Fog_video_test1"
+    }
+  ],
+  "annal:type_id": "Journal",
+  "coll:audio_clips": [],
+  "coll:images": [
+    {
+      "coll:Image": "London_1"
+    },
+    {
+      "coll:Image": "London_1_crop"
+    },
+    {
+      "coll:Image": "London_1_crop_ed1"
+    },
+    {
+      "coll:Image": "London_1_crop_ed_last"
+    }
+  ],
+  "@type": [
+    "coll:Journal",
+    "annal:EntityData"
+  ],
+  "annal:id": "00000004",
+  "coll:date__2": "studio",
+  "coll:date": "2015-08-10",
+  "annal:type": "annal:EntityData"
+}

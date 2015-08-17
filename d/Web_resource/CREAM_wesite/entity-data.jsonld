@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "CREAM wesite",
+  "rdfs:comment": "This is the website of the \"Collaboration for Research Enhancement by Active Metadata\" (CREAM), funded by JISC",
+  "coll:web_resource": "https://blog.soton.ac.uk/cream",
+  "annal:type_id": "Web_resource",
+  "annal:id": "CREAM_wesite",
+  "@id": "./",
+  "@type": [
+    "coll:Web_resource",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

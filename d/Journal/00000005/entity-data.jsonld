@@ -1,0 +1,37 @@
+{
+  "@id": "./",
+  "rdfs:label": "Log Entry 5",
+  "rdfs:comment": "I need to play around a little further with creating transitions between individual images. The first test is way to messy and longwinded. I want something simpler. Whilst doing my exercises this morning I thought of another idea, which I will try today.\r\n\r\nI've also been thinking about breaking down the tools into the separate blend lines to see what information that might yield. Can't do tables here as far as I know, so will do in Excel and append as a jpg. \r\n\r\n## Blend lines so far: \r\n*(actually, the blend lines could also be seen as blend fields, depending on resolution...)*\r\n\r\nmaking of the piece, thinking about data, correlating Annalist with PB.\r\n\r\n## The tools so far:\r\nWord, Adobe Photoshop, Adobe Premiere, Paper, Pen, Annalist, web, markdown\r\n\r\nI've been playing around in Premiere. Dissolve transition times are not that great. Need to go back to the tutorial to learn more about it. That said, here a link to [Test 2 on YouTube.](http://youtu.be/D4EnQnrvDWY) Needs more work but, still, this is a better approach.\r\n\r\nI've also looked into who I need to contact at the various archives to obtain usage permissions. Fingers crossed this will be forthcoming and toes crossed for being able to use them free of charge. In the process I found a few more useful links:\r\n\r\nA newly identified set of images from ** Getty Images ** held in various archives. [http://www.gettyimages.co.uk/photos/london-fog-1952?family=editorial&phrase=london%20fog%201952&sort=best&excludenudity=true](http://www.gettyimages.co.uk/photos/london-fog-1952?family=editorial&phrase=london%20fog%201952&sort=best&excludenudity=true)\r\n\r\nMore images from the Archive at the  ** University of Pittsburgh ** [http://images.library.pitt.edu/cgi-bin/i/image/image-idx?q1=AIS.1978.22&rgn1=hpicasc_ci&type=boolean&med=1&view=thumbnail&cc=hpicasc](http://images.library.pitt.edu/cgi-bin/i/image/image-idx?q1=AIS.1978.22&rgn1=hpicasc_ci&type=boolean&med=1&view=thumbnail&cc=hpicasc)\r\n\r\nThinking a bit more about the project, perhaps I could do two versions, one for London, the other for Pittsburgh. The length of each piece: \r\n\r\n** Philadelphia ** approx 17 images  at 7secs = 119 secs\r\n\r\n** London ** approx 10 images  at 7secs = 70 secs\r\n\r\nThe first response is trundling in. Sadly, but not unsurprisingly Getty Images are not keen on free usage. Let's try again.",
+  "coll:resources": [
+    {
+      "coll:web_resource_m": "Fog_video_test2"
+    },
+    {
+      "coll:web_resource_m": "Philadelphia_LanternArchive_2"
+    },
+    {
+      "coll:web_resource_m": "Philadelphia_LanternArchive_1"
+    },
+    {
+      "coll:web_resource_m": "London_GettyImages_1"
+    },
+    {
+      "coll:web_resource_m": "Latern_Archive_portal"
+    }
+  ],
+  "annal:type_id": "Journal",
+  "coll:audio_clips": [],
+  "@type": [
+    "coll:Journal",
+    "annal:EntityData"
+  ],
+  "coll:date": "2015-08-11",
+  "annal:id": "00000005",
+  "coll:date__2": "studio",
+  "coll:images": [
+    {
+      "coll:Image": "Tools1"
+    }
+  ],
+  "annal:type": "annal:EntityData"
+}

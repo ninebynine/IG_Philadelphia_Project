@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Sarah Vaughan - Smoke Gets In Your Eyes (YouTube)",
+  "rdfs:comment": "Published on 17 Dec 2012\r\n\r\nCopyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for \"fair use\" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use.\r\n\r\nSarah Vaughan with the Basie Band, Without the Count.\r\n\r\nMusic\r\n\"Smoke Gets in Your Eyes (feat. Count Basie and His Orchestra)\" by Sarah Vaughan (Google Play \u2022 iTunes)\r\n\r\nCategory Music\r\n\r\nLicence Standard YouTube Licence\r\n",
+  "coll:web_resource": "https://www.youtube.com/watch?v=yPKwZAhWevc",
+  "annal:type_id": "Web_resource",
+  "annal:id": "youtube_sarah_vaughan_smoke",
+  "@id": "./",
+  "@type": [
+    "coll:Web_resource",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

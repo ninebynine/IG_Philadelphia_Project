@@ -1,0 +1,37 @@
+{
+  "@id": "./",
+  "rdfs:label": "Log Entry 6",
+  "rdfs:comment": "Whist waiting for the answers to image copyright, I am turning towards the sound end of the piece. The piece  written by According to [wikipedia](https://en.wikipedia.org/wiki/Smoke_Gets_in_Your_Eyes):\r\n\r\n> ** Smoke Gets in Your Eyes ** is a show tune written by American composer Jerome Kern and lyricist Otto Harbach for their 1933 musical Roberta. The song was sung in the original Broadway show by Tamara Drasin. Its first recorded performance was by Gertrude Niesen, who recorded the song with orchestral direction from Ray Sinatra, Frank Sinatra's second-cousin, on October 13, 1933.\r\n\r\nThis date should mean that it's ok to use. Luckily ** A Foggy Day ** is also from the 1930s. Also from [wikipedia](http://en.wikipedia.org/wiki/A_Foggy_Day):\r\n\r\n>** A Foggy Day ** is a song composed by George Gershwin, with lyrics by Ira Gershwin, introduced by Fred Astaire in the 1937 film A Damsel in Distress. It was originally titled \"A Foggy Day (In London Town)\", and is often still referred to as such.\r\n\r\nThe way I'm thinking about proceeding with the project now, the most likely scenario is to start with the Philadelphia film, using the Jazz standard ** Smoke Gets in your Eyes **. If permissions are forthcoming I can  then start on a second film using images of the London fog from 1952, using the Jazz standard ** A Foggy Day **.  \r\n\r\nGood news: Just received permission from the \"Archives Service Center, University of Pittsburgh\". Emailed back for large re images but in the meantime I will download what'a there already.\r\n\r\nIt seems that the large res images are $25 a piece but let's see.\r\n\r\n## A list of image titles and identifiers:\r\n\r\nSmokey Church - SCLS047\r\nMen in Street - SCLS043\r\nSmokey Traffic - SCLS045\r\nCorner of Liberty and Fifth Avenues - SCLS009\r\nCorner of Liberty and Fifth Avenues 8:38 AM - SCLS001\r\nKoppers and Gulf Oil buildings - SCLS014\r\nSaint Louis Civil Courts Building - SCLS031\r\n\r\nAutomobiles in smoke - SCLS039\r\nDowntown Smoke -  SCLS036\r\nMan in Street - SCLS042\r\nSmoky bridge - SCLS041\r\nSmoky street - SCLS040\r\nMidday Darkness - SCLS035\r\nTraffic and Smokestack - SCLS033\r\nMen with Hats - SCLS048\r\n600 block of Liberty Avenue - SCLS010\r\nCorner of Fifth Avenue and Wood Street - SCLS013\r\nCorner of Liberty and Fifth Avenues - SCLS006\r\nCorner of Liberty and Fifth Avenues - SCLS007\r\nCorner of Liberty and Fifth Avenues - SCLS008\r\nCorner of Liberty and Fifth Avenues 12:10 PM - SCLS004\r\nNorth End of the Liberty Tunnels - SCLS019\r\nCorner of Stanwix Street and Penn Avenue - SCLS012\r\nSaint Louis City Street before Smoke Ordinance - SCLS029\r\nSaint Louis City Street before Smoke Ordinance - SCLS032\r\n\r\n",
+  "coll:resources": [
+    {
+      "coll:web_resource_m": "Smoke_wiki"
+    },
+    {
+      "coll:web_resource_m": "1930s_Jazz_tunes"
+    },
+    {
+      "coll:web_resource_m": "FoggyDay_info_wiki"
+    },
+    {
+      "coll:web_resource_m": "PRS_copyright_info"
+    }
+  ],
+  "annal:type_id": "Journal",
+  "coll:audio_clips": [],
+  "coll:images": [
+    {
+      "coll:Image": "Smoke_lyrics_copyright"
+    },
+    {
+      "coll:Image": "FoggyDay_lyrics"
+    }
+  ],
+  "@type": [
+    "coll:Journal",
+    "annal:EntityData"
+  ],
+  "annal:id": "00000006",
+  "coll:date__2": "home",
+  "coll:date": "2015-08-12",
+  "annal:type": "annal:EntityData"
+}

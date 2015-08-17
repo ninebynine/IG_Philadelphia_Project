@@ -1,0 +1,31 @@
+{
+  "rdfs:label": "Log entry 1 - Initial thoughts",
+  "rdfs:comment": "I am intending to create a piece for [CREAM](https://blog.soton.ac.uk/cream), using Annalist to capture process with the aim of becoming clearer about the nature of metadata in my domain and in what way this is active, or can be activated by others. This will have to be a quick turnover to give quick results. For this reason I am turning to \"tried and tested\" methods and an idea I had a while ago.\r\n\r\n## The idea\r\n\r\nWhilst browsing on the internet I saw historical black and white photographs of Philadelphia (US) taken at a time when the city's industrial output caused extremely bad air quality. Sadly I can't remember how I came across this website, but someone else's facebook post is a likely candidate (see images phily1 and phily2).\r\n\r\n[This is the initial link](http://www.treehugger.com/slideshows/environmental-policy/think-air-quality-regulations-dont-matter-look-pittsburgh-1940s/page/17/#slide-top]) to a slideshow of images) I saw, featuring a slideshow of the **Smoke Control Lantern Slide Collection**, ca. 1940-1950, AIS.1978.22, Archives Service Center, University of Pittsburgh.\r\n\r\n\r\nIn this project I want to create a \"film\" using the images and create a \"sound track\". \r\n\r\n## Question: How to express sound? Initial ideas:\r\n\r\n * image to sound transfer (bit boring)\r\n * ask the field recording community for location recordings of current\r\n   city sounds (like the idea juxtaposing past and present but likely\r\n   to be generic city, e.g cars....Might take too long\r\n * check for popular music of the time (naff) {input music, element 1]\r\n * actually, perhaps creating a new (non-sweet) version of the jazz\r\n   tune \"smoke gets in your eyes\". Like this idea best so far but\r\n   copyright needs checking.  {input music, element 2]\r\n * is there any worker's music from the time? {input music, element 3]\r\n\r\n[Here a link to a Sarah Vaughan version of the track \"Smoke gets in your Eyes\" ](https://www.youtube.com/watch?v=yPKwZAhWevc])\r\n\r\n## Next steps:\r\n\r\n * ask archive for: permission, high-res versions, additional images\r\n * research further images [British Library]\r\n * create PB association list for sound ideas\r\n * copyright issues song (PRS)",
+  "coll:resources": [
+    {
+      "coll:web_resource_m": "youtube_sarah_vaughan_smoke"
+    },
+    {
+      "coll:web_resource_m": "CREAM_wesite"
+    }
+  ],
+  "annal:type_id": "Journal",
+  "coll:audio_clips": [],
+  "@type": [
+    "coll:Journal",
+    "annal:EntityData"
+  ],
+  "coll:date__2": "On train: Oxford -> London",
+  "coll:date": "2015-08-06",
+  "annal:id": "00000001",
+  "@id": "./",
+  "coll:images": [
+    {
+      "coll:Image": "phily1"
+    },
+    {
+      "coll:Image": "phily2"
+    }
+  ],
+  "annal:type": "annal:EntityData"
+}

@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Google smog images",
+  "rdfs:comment": "Results of Google search for smog images",
+  "coll:web_resource": "https://www.google.co.uk/search?q=smog&client=safari&rls=en&source=lnms&tbm=isch&sa=X&ved=0CAgQ_AUoAmoVChMIz5e7jK6WxwIVSuwUCh3vogD1&biw=1515&bih=870#tbm=isch&tbs=rimg%3ACR5jF-Zq8AWpIjhGTnySmIh7VG49bS9t8YVa4Vr_1KJirXl9EMDRGK7jiMkJvQ5y8lRm2y_1JEfRd0KzozbsJo1aw7kyoSCUZOfJKYiHtUERbmsj2ZvIGyKhIJbj1tL23xhVoRLleEt4jpFD4qEgnhWv8omKteXxGU4nmITRc9ACoSCUQwNEYruOIyEZTieYhNFz0AKhIJQm9DnLyVGbYRtZhZmOKUygwqEgnL8kR9F3QrOhHgCWYitDUCnSoSCTNuwmjVrDuTEeOA1-5xFpOc&q=smog ",
+  "annal:type_id": "Web_resource",
+  "annal:id": "google_smog_images",
+  "@id": "./",
+  "@type": [
+    "coll:Web_resource",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

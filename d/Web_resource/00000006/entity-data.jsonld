@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "",
+  "rdfs:comment": "",
+  "coll:web_resource": "",
+  "annal:type_id": "Web_resource",
+  "annal:id": "00000006",
+  "@id": "./",
+  "@type": [
+    "coll:Web_resource",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

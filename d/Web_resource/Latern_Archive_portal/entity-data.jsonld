@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Portal to Smoke Control Lantern Slide Collection",
+  "rdfs:comment": "The portal to the Smoke Control Lantern Slide Collection, ca. 1940-1950, AIS.1978.22\r\nArchives Service Center, University of Pittsburgh",
+  "coll:web_resource": "http://digital.library.pitt.edu/images/pittsburgh/smokecontrol.html",
+  "annal:type_id": "Web_resource",
+  "annal:id": "Latern_Archive_portal",
+  "@id": "./",
+  "@type": [
+    "coll:Web_resource",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

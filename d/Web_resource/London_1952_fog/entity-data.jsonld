@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "The great London fog 1952",
+  "rdfs:comment": "Images advertised to be from the great London fog of 1952, although some are from earlier periods.",
+  "coll:web_resource": "http://www.buzzhunt.co.uk/2013/08/29/the-london-fog-of-1952-was-so-dense-that-you-could-barely-see-through-it-26-pictures",
+  "annal:type_id": "Web_resource",
+  "annal:id": "London_1952_fog",
+  "@id": "./",
+  "@type": [
+    "coll:Web_resource",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}
