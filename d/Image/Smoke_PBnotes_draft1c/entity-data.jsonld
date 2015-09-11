@@ -1,0 +1,19 @@
+{
+  "rdfs:label": "PB Notes draft1c",
+  "rdfs:comment": "First set of notes for creating a PB graphic, part 3 of 3",
+  "annal:type_id": "Image",
+  "@type": [
+    "coll:Image",
+    "annal:EntityData"
+  ],
+  "annal:id": "Smoke_PBnotes_draft1c",
+  "@id": "./",
+  "coll:image": {
+    "upload_name": "Uploaded_image",
+    "resource_name": "Uploaded_image.jpg",
+    "uploaded_size": 115275,
+    "uploaded_file": "Smoke-notes1c.jpg",
+    "resource_type": "image/jpeg"
+  },
+  "annal:type": "annal:EntityData"
+}

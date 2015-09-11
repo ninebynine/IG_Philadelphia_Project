@@ -1,0 +1,19 @@
+{
+  "rdfs:label": "Tool Breakdown 2",
+  "rdfs:comment": "A second snapshot of an Excel sheet breaking down the tools used in this project into 3 blend lines.",
+  "annal:type_id": "Image",
+  "@type": [
+    "coll:Image",
+    "annal:EntityData"
+  ],
+  "annal:id": "Tools2",
+  "@id": "./",
+  "coll:image": {
+    "upload_name": "Uploaded_image",
+    "resource_name": "Uploaded_image.png",
+    "uploaded_size": 41222,
+    "uploaded_file": "Tools-Draft2.pdf",
+    "resource_type": "application/pdf"
+  },
+  "annal:type": "annal:EntityData"
+}

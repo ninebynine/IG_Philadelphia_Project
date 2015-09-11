@@ -1,7 +1,7 @@
 {
   "@id": "./",
   "rdfs:label": "Log Entry 8",
-  "rdfs:comment": "Today I am optimising and working with images in Photoshop 2015 and Premiere Pro 2015. And finding out what the best options are for this project.\r\n\r\n## A few useful links: \r\n\r\n* *Preparing still images before importing*  [https://helpx.adobe.com/premiere-pro/using/importing-still-images.html#preparing_still_images_before_importing](https://helpx.adobe.com/premiere-pro/using/importing-still-images.html#preparing_still_images_before_importing)\r\n\r\n* *Viewing and adjusting effects and keyframes* [https://helpx.adobe.com/premiere-pro/using/viewing-adjusting-effects-keyframes.html](https://helpx.adobe.com/premiere-pro/using/viewing-adjusting-effects-keyframes.html)\r\n\r\n*  *Animate images* [look at animating position] [https://helpx.adobe.com/premiere-pro/using/animating-effects.html](https://helpx.adobe.com/premiere-pro/using/animating-effects.html)\r\n\r\n* https://helpx.adobe.com/premiere-pro/using/adding-navigating-setting-keyframes.html\r\n* https://helpx.adobe.com/premiere-pro/using/applying-removing-finding-organizing-effects.html\r\n* https://helpx.adobe.com/premiere-pro/using/motion-position-scale-rotate-clip.html\r\n* How to move images https://www.youtube.com/watch?v=S-equfXHPhM\r\n* http://tv.adobe.com/watch/peachpit-tv-for-video/the-adobe-photoshop-to-adobe-premiere-pro-workflow/\r\n* http://www.premiumbeat.com/blog/ken-burns-effect-premiere-pro/\r\n\r\n\r\n## Possible step to take\r\n\r\n1. In Photoshop, change all pictures from greyscale to RGB, actually, can be done in Premiere http://blog.infiniteskills.com/2014/04/overview-color-correction-effects-premiere-pro/\r\n\r\n2.  In Photoshop, scale and crop images where needed. Will need some trial and error.\r\n\r\n3. In Permiere, once images are imported, apply *Set To Frame Size*\r\n\r\n\r\n## Next steps\r\n\r\n* Try zoom into stills, pan stills\r\n\r\nAm experiment can be found [here](http://youtu.be/Cn_eKZEdRoM)\r\n\r\n**Credit:** Smoke Control Lantern Slide Collection, ca. 1940-1950, AIS.1978.22, Archives Service Center, University of Pittsburgh.(Short version: Smoke Control Lantern Slide Collection, University of Pittsburgh)",
+  "rdfs:comment": "Today I am optimising and working with images in Photoshop 2015 and Premiere Pro 2015 (finally updated from 2014 version, which took ages). And finding out what the best options are for this project.\r\n\r\n## A few useful links: \r\n\r\n* *Preparing still images before importing*  [https://helpx.adobe.com/premiere-pro/using/importing-still-images.html#preparing_still_images_before_importing](https://helpx.adobe.com/premiere-pro/using/importing-still-images.html#preparing_still_images_before_importing)\r\n\r\n* *Viewing and adjusting effects and keyframes* [https://helpx.adobe.com/premiere-pro/using/viewing-adjusting-effects-keyframes.html](https://helpx.adobe.com/premiere-pro/using/viewing-adjusting-effects-keyframes.html)\r\n\r\n*  *Animate images* [look at animating position] [https://helpx.adobe.com/premiere-pro/using/animating-effects.html](https://helpx.adobe.com/premiere-pro/using/animating-effects.html)\r\n\r\n* https://helpx.adobe.com/premiere-pro/using/adding-navigating-setting-keyframes.html\r\n* https://helpx.adobe.com/premiere-pro/using/applying-removing-finding-organizing-effects.html\r\n* https://helpx.adobe.com/premiere-pro/using/motion-position-scale-rotate-clip.html\r\n* How to move images https://www.youtube.com/watch?v=S-equfXHPhM\r\n* http://tv.adobe.com/watch/peachpit-tv-for-video/the-adobe-photoshop-to-adobe-premiere-pro-workflow/\r\n* http://www.premiumbeat.com/blog/ken-burns-effect-premiere-pro/\r\n\r\n\r\n## Possible step to take\r\n\r\n1. In Photoshop, change all pictures from greyscale to RGB, actually, can be done in Premiere http://blog.infiniteskills.com/2014/04/overview-color-correction-effects-premiere-pro/\r\n\r\n2.  In Photoshop, scale and crop images where needed. Will need some trial and error.\r\n\r\n3. In Permiere, once images are imported, apply *Set To Frame Size*\r\n\r\n\r\n## Next steps\r\n\r\n* Try zoom into stills, pan stills\r\n\r\nAn experiment can be found [here](http://youtu.be/Cn_eKZEdRoM)\r\n\r\n**Credit:** Smoke Control Lantern Slide Collection, ca. 1940-1950, AIS.1978.22, Archives Service Center, University of Pittsburgh.(Short version: Smoke Control Lantern Slide Collection, University of Pittsburgh)",
   "coll:resources": [
     {
       "coll:web_resource_m": "Fog_video_test3"
@@ -9,13 +9,13 @@
   ],
   "annal:type_id": "Journal",
   "coll:audio_clips": [],
-  "coll:images": [],
   "@type": [
     "coll:Journal",
     "annal:EntityData"
   ],
+  "coll:date": "2015-08-14",
   "annal:id": "00000008",
   "coll:date__2": "studio",
-  "coll:date": "2015-08-14",
+  "coll:images": [],
   "annal:type": "annal:EntityData"
 }

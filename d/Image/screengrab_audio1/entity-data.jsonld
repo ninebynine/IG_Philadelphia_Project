@@ -1,0 +1,19 @@
+{
+  "rdfs:label": "ReplayPlayer audio test 1",
+  "rdfs:comment": "This is a screen grab showing the settings for the first audio test. See sound_experiment_1 for a compilation of the recordings.",
+  "annal:type_id": "Image",
+  "coll:image": {
+    "upload_name": "Uploaded_image",
+    "uploaded_size": 146186,
+    "resource_name": "Uploaded_image.jpg",
+    "uploaded_file": "screengrab-audiotest1.jpg",
+    "resource_type": "image/jpeg"
+  },
+  "annal:id": "screengrab_audio1",
+  "@id": "./",
+  "@type": [
+    "coll:Image",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

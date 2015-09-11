@@ -1,0 +1,19 @@
+{
+  "rdfs:label": "First illustrator draft of BF1",
+  "rdfs:comment": "This image the a first draft in illustrator of blend field 1, based on the initial hand written notes,.",
+  "annal:type_id": "Image",
+  "coll:image": {
+    "upload_name": "Uploaded_image",
+    "uploaded_size": 52682,
+    "resource_name": "Uploaded_image.png",
+    "uploaded_file": "Smoke-PBdraft-Illus1.png",
+    "resource_type": "image/png"
+  },
+  "annal:id": "PB_Illustrator_1",
+  "@id": "./",
+  "@type": [
+    "coll:Image",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

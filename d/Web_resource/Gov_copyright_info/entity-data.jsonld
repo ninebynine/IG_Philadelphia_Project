@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "UK Government copyright info",
+  "rdfs:comment": "A link to a range of documents about copyright provided by the UK Government.",
+  "coll:web_resource": "https://www.gov.uk/topic/intellectual-property/copyright",
+  "annal:type_id": "Web_resource",
+  "annal:id": "Gov_copyright_info",
+  "@id": "./",
+  "@type": [
+    "coll:Web_resource",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

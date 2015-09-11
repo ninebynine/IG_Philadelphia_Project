@@ -1,0 +1,21 @@
+{
+  "@id": "./",
+  "rdfs:label": "Log Entry 10",
+  "rdfs:comment": "Today I am turning towards the sonic aspect of the piece. I still haven't had a definitive answer from the PRS but I will start nevertheless. So far they are trying to sell me a Limited Online Music Licence (LOML) for \u00a3129 + VAT, [www.prsformusic.com/loml](http://www.prsformusic.com/users/broadcastandonline/onlinemobile/MusicServices/LOML/Pages/LOML.aspx). I find this a bit perplexing considering I want to use one track only for a non-commercial research project. And no confirmation as yet as to whether the relevant titles are even still in copyright.\r\n\r\nAnyway, to begin with I wanted to record the voice in a very raw way, as the images show their age and flaws (But of course the analogy breaks down pretty quickly as I processed the sound very heavily). \r\n\r\nAnyway, I sang straight into Audacity, using my laptop's inbuilt very crappy mic. There are plenty of distortions, but not very pleasing ones. I then moved on to experimenting with the recording in Replay Player. Screenshot is below. No sounds attached for now as file sizes are large. That might be no bad thing as I am not too keen on what I produced so far.",
+  "coll:resources": [],
+  "annal:type_id": "Journal",
+  "coll:audio_clips": [],
+  "@type": [
+    "coll:Journal",
+    "annal:EntityData"
+  ],
+  "coll:date": "2015-08-18",
+  "annal:id": "00000010",
+  "coll:date__2": "studio",
+  "coll:images": [
+    {
+      "coll:Image": "screengrab_audio1"
+    }
+  ],
+  "annal:type": "annal:EntityData"
+}

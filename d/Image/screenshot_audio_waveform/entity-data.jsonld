@@ -1,0 +1,19 @@
+{
+  "rdfs:label": "Audacity screenshot",
+  "rdfs:comment": "A screenshot showing the waveform editor compiling the first full audio for the film. ",
+  "annal:type_id": "Image",
+  "@type": [
+    "coll:Image",
+    "annal:EntityData"
+  ],
+  "annal:id": "screenshot_audio_waveform",
+  "@id": "./",
+  "coll:image": {
+    "upload_name": "Uploaded_image",
+    "resource_name": "Uploaded_image.png",
+    "uploaded_size": 253560,
+    "uploaded_file": "Screenshot 2015-08-27 11.26.14.png",
+    "resource_type": "image/png"
+  },
+  "annal:type": "annal:EntityData"
+}

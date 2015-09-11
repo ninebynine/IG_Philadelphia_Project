@@ -1,0 +1,19 @@
+{
+  "rdfs:label": "First raw voice recording",
+  "rdfs:comment": "This is the first raw voice recording.  I sang straight into Audacity, using my laptop's inbuilt low quality mic without any effects such as reverb. There are plenty of distortions, but not very pleasing ones. ",
+  "coll:audio_clip": {
+    "upload_name": "Uploaded_audio",
+    "resource_name": "Uploaded_audio.mp3",
+    "uploaded_size": 1668675,
+    "uploaded_file": "Smoke-voice1.mp3",
+    "resource_type": "audio/mpeg"
+  },
+  "annal:type_id": "Audio",
+  "annal:id": "smoke_voice_1",
+  "@id": "./",
+  "@type": [
+    "coll:Audio",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

@@ -1,0 +1,30 @@
+{
+  "@id": "./",
+  "rdfs:label": "Log Entry 14",
+  "rdfs:comment": "Today I am making a start on formatting the data collected to date into PB. One question to answer is whether each log entry forms part of blend node, or whether I should rather see each little \"film\" as a blend node. A second question pertains to the \"resolution\" of the graphical representation I am making, e.g are the making of the piece, thinking about data, correlating Annalist with PB blend lines as suggested in Log Entry 5, or blend fields? I am leaning towards the latter.\r\n\r\nWhilst working this out I realised I have not been making many notes about the metadata side of things. This has been \"running in the background\" so to speak. My main questions still are what kind of metadata are really worth noting down and how to strike a balance between having enough data and having too much. One thought is to give these log posts to a number of artists and ask them few questions about it.\r\n\r\nEarlier I was wondering the input of tools should be looked at separately, split between the 3 main blend fields (seems I have made up my mind...). As far as the \"making of...\" field  goes, the tool Premiere Pro proved a significant input, mainly in the shape of skill restrictions and fruitful \"accidents\" in my experiments [one of my preferred working techniques :)]\r\n\r\nThe first stage of creating a PB graphic, I split down the information into the blend lines using my hardcopy notebook (see sketches below- beware of atrocious handwriting...). In doing so I was thinking more about the material so that the notebook entry became an input to thinking about it. From there I compiled a PB draft of the first blend field. I had wanted to go straight to illustrator but decided to do a hand written sketch first. I', also thinking Inkscape might be a better tool so have downloaded a new version.\r\n\r\nNext stage is creating a first draft in illustrator.",
+  "coll:resources": [],
+  "annal:type_id": "Journal",
+  "coll:audio_clips": [],
+  "coll:images": [
+    {
+      "coll:Image": "Smoke_PBnotes_draft1a"
+    },
+    {
+      "coll:Image": "Smoke_PBnotes_draft1b"
+    },
+    {
+      "coll:Image": "Smoke_PBnotes_draft1c"
+    },
+    {
+      "coll:Image": "Smoke_PBnotes_draft2"
+    }
+  ],
+  "@type": [
+    "coll:Journal",
+    "annal:EntityData"
+  ],
+  "annal:id": "00000014",
+  "coll:date__2": "library",
+  "coll:date": "2015-08-26",
+  "annal:type": "annal:EntityData"
+}

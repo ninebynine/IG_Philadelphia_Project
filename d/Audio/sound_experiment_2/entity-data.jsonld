@@ -1,0 +1,19 @@
+{
+  "rdfs:label": "ReplayPlayer sound experiment 2",
+  "rdfs:comment": "This is the second ReplayPlayer sound experiment, which formed the base for the sound track of the first full draft of the film. Uploaded as a low-res mp3 (at 96 kbps)  See screengrab_audio2 for the settings.",
+  "coll:audio_clip": {
+    "upload_name": "Uploaded_audio",
+    "uploaded_size": 3170195,
+    "resource_name": "Uploaded_audio.mp3",
+    "uploaded_file": "SmokeFullDraft1.mp3",
+    "resource_type": "audio/mpeg"
+  },
+  "annal:type_id": "Audio",
+  "annal:id": "sound_experiment_2",
+  "@id": "./",
+  "@type": [
+    "coll:Audio",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

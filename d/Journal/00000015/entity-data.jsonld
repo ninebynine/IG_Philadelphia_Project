@@ -1,0 +1,21 @@
+{
+  "@id": "./",
+  "rdfs:label": "Log Entry 15",
+  "rdfs:comment": "Continuing with the PB model, I have translated the handwritten notes for blend field into an Illustrator model, which now needs checking back with the logs to make sure I have got the temporal relationships right and that I have not overlooked anything. I also need to then insert details for the other 2 blend fields.\r\n\r\nIt is interesting how I am thinking slightly different when using a pen to working in Illustrator. Both bring out somewhat different, but equally useful aspects.\r\n\r\nI am also wondering what to designate as blend nodes - so far I have only marked the obvious one - the .mov. files. It would also be useful to represent individual log entries, perhaps as different colour washes across the mode.",
+  "coll:resources": [],
+  "annal:type_id": "Journal",
+  "coll:audio_clips": [],
+  "coll:date": "2015-08-27",
+  "coll:images": [
+    {
+      "coll:Image": "PB_Illustrator_1"
+    }
+  ],
+  "annal:id": "00000015",
+  "coll:date__2": "studio",
+  "@type": [
+    "coll:Journal",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

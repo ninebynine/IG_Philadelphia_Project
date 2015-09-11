@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "First draft of film without audio",
+  "rdfs:comment": "This is the first draft of the film, with images and transitions roughly in place, although there is no audio as yet.",
+  "coll:web_resource": "http://youtu.be/V9P_mkZN9Yc",
+  "annal:type_id": "Web_resource",
+  "annal:id": "Smoke_draft1",
+  "@id": "./",
+  "@type": [
+    "coll:Web_resource",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}
