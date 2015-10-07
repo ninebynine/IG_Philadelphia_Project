@@ -1,0 +1,22 @@
+{
+  "rdfs:label": "Smoke Control slideshow",
+  "rdfs:comment": "",
+  "coll:resources": [
+    {
+      "coll:web_resource_m": "Web_resource/Smoke_Control_slideshow"
+    }
+  ],
+  "annal:type_id": "BlendInput",
+  "annal:type": "annal:EntityData",
+  "annal:id": "Smoke_Control_slideshow",
+  "@id": "./",
+  "@type": [
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:member": [
+    {
+      "annal:member": "Journal/00000001"
+    }
+  ]
+}

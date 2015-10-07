@@ -1,0 +1,40 @@
+{
+  "rdfs:label": "Decision to make \"Smoke\" film",
+  "rdfs:comment": "",
+  "coll:resources": [],
+  "annal:type_id": "BlendNode",
+  "pb:generated": [
+    {
+      "annal:member": "BlendOutput/Researching_images"
+    },
+    {
+      "annal:member": "BlendOutput/Aesthetics_appearance"
+    },
+    {
+      "annal:member": "BlendOutput/Concept"
+    },
+    {
+      "annal:member": "BlendOutput/Music_idea"
+    }
+  ],
+  "pb:used": [
+    {
+      "annal:member": "BlendOutput/Smoke_film_idea"
+    },
+    {
+      "annal:member": "BlendInput/CREAM_project"
+    }
+  ],
+  "annal:member": [
+    {
+      "annal:member": "Journal/00000001"
+    }
+  ],
+  "annal:id": "Smoke_film_decision",
+  "@id": "./",
+  "@type": [
+    "pb:BlendNode",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

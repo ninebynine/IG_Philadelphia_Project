@@ -1,0 +1,20 @@
+{
+  "rdfs:label": "Idea to make film",
+  "rdfs:comment": "",
+  "coll:resources": [],
+  "annal:type_id": "BlendOutput",
+  "pb:wasGeneratedBy": "BlendNode/Film_idea",
+  "annal:type": "annal:EntityData",
+  "annal:id": "Smoke_film_idea",
+  "@id": "./",
+  "@type": [
+    "pb:BlendOutput",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:member": [
+    {
+      "annal:member": "Journal/00000001"
+    }
+  ]
+}

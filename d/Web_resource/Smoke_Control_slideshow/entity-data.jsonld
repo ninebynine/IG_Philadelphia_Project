@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Smoke Control slideshow",
+  "rdfs:comment": "\"Think Air Quality Regulations Don't Matter? Look at Pittsburgh in the 1940s!\"",
+  "coll:web_resource": "http://www.treehugger.com/slideshows/environmental-policy/think-air-quality-regulations-dont-matter-look-pittsburgh-1940s/",
+  "annal:type_id": "Web_resource",
+  "annal:id": "Smoke_Control_slideshow",
+  "@id": "./",
+  "@type": [
+    "coll:Web_resource",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

@@ -1,0 +1,16 @@
+{
+  "@id": "./",
+  "rdfs:label": "Researching further images",
+  "rdfs:comment": "Researching further images: London, China",
+  "coll:resources": [],
+  "annal:type_id": "BlendOutput",
+  "annal:member": [],
+  "annal:id": "Researching_images",
+  "pb:wasGeneratedBy": "BlendNode/Smoke_film_decision",
+  "@type": [
+    "pb:BlendOutput",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

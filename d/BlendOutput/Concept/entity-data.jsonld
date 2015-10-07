@@ -1,0 +1,16 @@
+{
+  "@id": "./",
+  "rdfs:label": "Concept",
+  "rdfs:comment": "",
+  "coll:resources": [],
+  "annal:type_id": "BlendOutput",
+  "annal:member": [],
+  "annal:id": "Concept",
+  "pb:wasGeneratedBy": "BlendNode/Smoke_film_decision",
+  "@type": [
+    "pb:BlendOutput",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

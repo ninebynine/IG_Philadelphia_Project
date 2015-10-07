@@ -1,0 +1,31 @@
+{
+  "rdfs:label": "Formation of idea to make film",
+  "rdfs:comment": "",
+  "coll:resources": [],
+  "annal:type_id": "BlendNode",
+  "pb:generated": [
+    {
+      "annal:member": "BlendOutput/Smoke_film_idea"
+    }
+  ],
+  "pb:used": [
+    {
+      "annal:member": "BlendInput/Smoke_Control_slideshow"
+    },
+    {
+      "annal:member": "BlendInput/Past_practice"
+    }
+  ],
+  "annal:type": "annal:EntityData",
+  "annal:id": "Film_idea_formation",
+  "@id": "./",
+  "@type": [
+    "pb:BlendNode",
+    "annal:EntityData"
+  ],
+  "annal:member": [
+    {
+      "annal:member": "Journal/00000001"
+    }
+  ]
+}
