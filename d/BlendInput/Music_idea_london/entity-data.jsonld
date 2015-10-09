@@ -1,0 +1,23 @@
+{
+  "@id": "./",
+  "rdfs:label": "Music idea: \"A foggy day\"",
+  "rdfs:comment": "Alternative music idea to be considered if London pics are used",
+  "coll:resources": [
+    {
+      "coll:web_resource_m": "Web_resource/FoggyDay_EllaFitzgerald_YouTube"
+    }
+  ],
+  "annal:type_id": "BlendInput",
+  "annal:member": [
+    {
+      "annal:member": "Journal/00000002"
+    }
+  ],
+  "annal:id": "Music_idea_london",
+  "pb:wasGeneratedBy": "BlendNode/Smoke_film_decision",
+  "@type": [
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:type": "pb:BlendInput"
+}

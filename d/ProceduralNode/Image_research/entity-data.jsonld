@@ -1,0 +1,25 @@
+{
+  "rdfs:label": "Researching images from London, China",
+  "rdfs:comment": "Initial Google trawl for relevant and/or usable images.\r\n\r\nOn the whole I prefer older b&w images. They create a different flavour. So, if there not enough Philadelphia images, I could use London 1952 ones, there seem to be a great amount of images. ",
+  "coll:resources": [],
+  "annal:type_id": "ProceduralNode",
+  "pb:generated": [],
+  "pb:used": [
+    {
+      "annal:member": "BlendNode/Smoke_film_decision"
+    }
+  ],
+  "annal:type": "pb:ProceduralNode",
+  "annal:id": "Image_research",
+  "@id": "./",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:member": [
+    {
+      "annal:member": "Journal/00000002"
+    }
+  ]
+}

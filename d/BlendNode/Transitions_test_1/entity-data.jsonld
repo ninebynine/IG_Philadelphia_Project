@@ -1,0 +1,30 @@
+{
+  "rdfs:label": "Premier Pro: transitions test 1",
+  "rdfs:comment": "First test in Premier Pro of a frame transition between still images",
+  "coll:resources": [
+    {
+      "coll:web_resource_m": "Web_resource/Fog_video_test1"
+    }
+  ],
+  "annal:type_id": "BlendNode",
+  "pb:generated": [],
+  "pb:used": [
+    {
+      "annal:member": "ProceduralNode/Sketch_frame_flow"
+    }
+  ],
+  "annal:type": "pb:BlendNode",
+  "annal:id": "Transitions_test_1",
+  "@id": "./",
+  "@type": [
+    "pb:BlendNode",
+    "pb:BlendInput",
+    "pb:ProceduralNode",
+    "annal:EntityData"
+  ],
+  "annal:member": [
+    {
+      "annal:member": "Journal/00000004"
+    }
+  ]
+}

@@ -1,11 +1,14 @@
 {
   "rdfs:label": "Blend output",
-  "rdfs:comment": "Procedural blend node output",
+  "rdfs:comment": "Procedural blend node output\r\n\r\nAn intended enduring output of the creative process.\r\n\r\n(The \"intent\" here may come after their original creation; e.g. intermediate images that were later thought to be interesting in their own right.)\r\n\r\nCompare with \"Blend Exit\", which can be any intermediate result or concept, not necessarily of enduring value.",
   "annal:field_aliases": [],
   "annal:type_id": "_type",
   "annal:supertype_uris": [
     {
       "annal:supertype_uri": "pb:BlendInput"
+    },
+    {
+      "annal:supertype_uri": "pb:BlendExit"
     }
   ],
   "annal:uri": "pb:BlendOutput",

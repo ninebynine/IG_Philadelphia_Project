@@ -1,16 +1,16 @@
 {
-  "rdfs:label": "Blend output ref",
-  "rdfs:comment": "Reference to blend output",
+  "rdfs:label": "Procedural output ref",
+  "rdfs:comment": "Reference to blend exit (intermediate or final result of blend line)",
   "annal:type_id": "_group",
   "annal:record_type": "",
   "annal:group_fields": [
     {
       "annal:property_uri": "annal:member",
       "annal:field_placement": "small:0,12",
-      "annal:field_id": "_field/BlendOutput"
+      "annal:field_id": "_field/ProceduralOutput"
     }
   ],
-  "annal:id": "BlendOutput_ref",
+  "annal:id": "ProceduralOutput_ref",
   "@id": "./",
   "@type": [
     "annal:Field_group"

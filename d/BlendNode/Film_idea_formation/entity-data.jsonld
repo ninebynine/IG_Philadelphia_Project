@@ -3,11 +3,7 @@
   "rdfs:comment": "",
   "coll:resources": [],
   "annal:type_id": "BlendNode",
-  "pb:generated": [
-    {
-      "annal:member": "BlendOutput/Smoke_film_idea"
-    }
-  ],
+  "pb:generated": [],
   "pb:used": [
     {
       "annal:member": "BlendInput/Smoke_Control_slideshow"
@@ -16,11 +12,13 @@
       "annal:member": "BlendInput/Past_practice"
     }
   ],
-  "annal:type": "annal:EntityData",
+  "annal:type": "pb:BlendNode",
   "annal:id": "Film_idea_formation",
   "@id": "./",
   "@type": [
     "pb:BlendNode",
+    "pb:BlendInput",
+    "pb:ProceduralNode",
     "annal:EntityData"
   ],
   "annal:member": [

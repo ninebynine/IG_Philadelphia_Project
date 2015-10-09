@@ -1,4 +1,5 @@
 {
+  "@id": "./",
   "rdfs:label": "Music idea: \"Smoke gets in your eyes\"",
   "rdfs:comment": "",
   "coll:resources": [
@@ -6,15 +7,14 @@
       "coll:web_resource_m": "Web_resource/youtube_sarah_vaughan_smoke"
     }
   ],
-  "annal:type_id": "BlendOutput",
-  "pb:wasGeneratedBy": "BlendNode/Smoke_film_decision",
-  "annal:type": "annal:EntityData",
+  "annal:type_id": "ProceduralOutput",
+  "annal:member": [],
   "annal:id": "Music_idea",
-  "@id": "./",
+  "pb:wasGeneratedBy": "BlendNode/Smoke_film_decision",
   "@type": [
-    "pb:BlendOutput",
+    "pb:BlendExit",
     "pb:BlendInput",
     "annal:EntityData"
   ],
-  "annal:member": []
+  "annal:type": "pb:BlendExit"
 }

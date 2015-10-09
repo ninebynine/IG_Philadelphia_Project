@@ -6,6 +6,9 @@
   "annal:supertype_uris": [
     {
       "annal:supertype_uri": "pb:BlendInput"
+    },
+    {
+      "annal:supertype_uri": "pb:ProceduralNode"
     }
   ],
   "annal:uri": "pb:BlendNode",
