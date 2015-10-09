@@ -7,12 +7,13 @@
     },
     {
       "coll:web_resource_m": "Web_resource/CREAM_website"
+    },
+    {
+      "coll:web_resource_m": "Web_resource/Latern_Archive_portal"
     }
   ],
   "annal:type_id": "Journal",
   "coll:audio_clips": [],
-  "coll:date": "2015-08-06",
-  "coll:date__2": "On train: Oxford -> London",
   "coll:images": [
     {
       "coll:Image": "Image/phily1"
@@ -21,11 +22,13 @@
       "coll:Image": "Image/phily2"
     }
   ],
-  "annal:id": "00000001",
-  "@id": "./",
+  "coll:date__2": "On train: Oxford -> London",
   "@type": [
     "coll:Journal",
     "annal:EntityData"
   ],
+  "annal:id": "00000001",
+  "@id": "./",
+  "coll:date": "2015-08-06",
   "annal:type": "annal:EntityData"
 }
