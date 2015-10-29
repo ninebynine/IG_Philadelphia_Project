@@ -8,7 +8,7 @@
       "annal:supertype_uri": "pb:BlendInput"
     }
   ],
-  "annal:uri": "pb:BlendExit",
+  "annal:uri": "pb:ProceduralOutput",
   "annal:type_list": "_list/BlendInputs",
   "annal:id": "ProceduralOutput",
   "@id": "./",

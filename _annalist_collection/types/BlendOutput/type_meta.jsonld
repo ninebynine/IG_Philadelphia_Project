@@ -5,10 +5,10 @@
   "annal:type_id": "_type",
   "annal:supertype_uris": [
     {
-      "annal:supertype_uri": "pb:BlendInput"
+      "annal:supertype_uri": "pb:ProceduralOutput"
     },
     {
-      "annal:supertype_uri": "pb:BlendExit"
+      "annal:supertype_uri": "pb:BlendInput"
     }
   ],
   "annal:uri": "pb:BlendOutput",

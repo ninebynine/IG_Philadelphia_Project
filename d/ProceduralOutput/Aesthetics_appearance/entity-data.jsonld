@@ -1,20 +1,20 @@
 {
+  "@id": "./",
   "rdfs:label": "Aesthetics (appearance)",
   "rdfs:comment": "Thoughts about the visual aesthetics of the film to be produced",
   "coll:resources": [],
   "annal:type_id": "ProceduralOutput",
-  "pb:wasGeneratedBy": "BlendNode/Smoke_film_decision",
-  "annal:type": "pb:BlendExit",
-  "annal:id": "Aesthetics_appearance",
-  "@id": "./",
-  "@type": [
-    "pb:BlendExit",
-    "pb:BlendInput",
-    "annal:EntityData"
-  ],
   "annal:member": [
     {
       "annal:member": "Journal/00000002"
     }
-  ]
+  ],
+  "annal:id": "Aesthetics_appearance",
+  "pb:wasGeneratedBy": "BlendNode/Smoke_film_decision",
+  "@type": [
+    "pb:ProceduralOutput",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
 }
