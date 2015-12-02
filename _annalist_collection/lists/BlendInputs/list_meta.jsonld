@@ -1,12 +1,12 @@
 {
-  "annal:display_type": "Enum_list_type/List",
   "rdfs:label": "List of blend inputs/outputs",
   "rdfs:comment": "List of blend inputs and outputs",
-  "annal:id": "BlendInputs",
+  "annal:default_view": "_view/BlendInput",
   "annal:default_type": "_type/BlendInput",
+  "annal:record_type": "pb:BlendInput",
   "annal:type_id": "_list",
   "annal:list_entity_selector": "\"pb:BlendInput\" in [@type]",
-  "annal:record_type": "pb:BlendInput",
+  "annal:display_type": "Enum_list_type/List",
   "annal:list_fields": [
     {
       "annal:field_placement": "small:0,12;medium:0,3",
@@ -21,7 +21,7 @@
       "annal:field_id": "_field/Entity_label"
     }
   ],
-  "annal:default_view": "_view/BlendInput",
+  "annal:id": "BlendInputs",
   "@id": "./",
   "@type": [
     "annal:List"

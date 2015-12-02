@@ -1,0 +1,25 @@
+{
+  "rdfs:label": "Contact U Pittsburgh re US images",
+  "rdfs:comment": "Contact University of Pittsburgh smoke control archive re Philadelphia images",
+  "coll:resources": [],
+  "annal:type_id": "ProceduralNode",
+  "pb:generated": [],
+  "pb:used": [
+    {
+      "annal:member": "ProceduralNode/02_Researching_image_copyright"
+    }
+  ],
+  "annal:member": [
+    {
+      "annal:member": "Journal/00000005"
+    }
+  ],
+  "annal:id": "05_Contact_U_Pittsburgh",
+  "@id": "./",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

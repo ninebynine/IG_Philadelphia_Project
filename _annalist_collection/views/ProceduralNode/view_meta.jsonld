@@ -28,25 +28,25 @@
     {
       "annal:property_uri": "",
       "annal:field_placement": "small:0,12",
-      "annal:field_id": "_field/ProceduralOutputs"
-    },
-    {
-      "annal:property_uri": "",
-      "annal:field_placement": "small:0,12",
       "annal:field_id": "_field/Journal_refs"
     },
     {
       "annal:property_uri": "",
       "annal:field_placement": "small:0,12",
       "annal:field_id": "_field/Web_resource_r"
+    },
+    {
+      "annal:property_uri": "",
+      "annal:field_placement": "small:0,12",
+      "annal:field_id": "_field/ProceduralOutputs"
     }
   ],
   "rdfs:label": "Procedural node view",
   "rdfs:comment": "Procedural node view",
-  "annal:open_view": true,
+  "annal:id": "ProceduralNode",
   "annal:type_id": "_view",
   "annal:record_type": "pb:ProceduralNode",
-  "annal:id": "ProceduralNode",
+  "annal:open_view": true,
   "@id": "./",
   "@type": [
     "annal:View"

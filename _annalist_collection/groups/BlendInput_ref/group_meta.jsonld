@@ -1,6 +1,6 @@
 {
-  "rdfs:label": "Blend input ref",
-  "rdfs:comment": "Reference to blend input",
+  "rdfs:label": "Input ref",
+  "rdfs:comment": "Reference to blend or procedural node input",
   "annal:type_id": "_group",
   "annal:record_type": "",
   "annal:group_fields": [

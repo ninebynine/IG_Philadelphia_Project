@@ -1,0 +1,25 @@
+{
+  "rdfs:label": "Premiere Pro: transitions test 3",
+  "rdfs:comment": "",
+  "coll:resources": [],
+  "annal:type_id": "BlendNode",
+  "pb:generated": [],
+  "pb:used": [
+    {
+      "annal:member": "ProceduralNode/08_Photoshop_trials"
+    },
+    {
+      "annal:member": "ProceduralNode/08_Premiere_Pro_tutorials"
+    }
+  ],
+  "annal:type": "annal:EntityData",
+  "annal:id": "08_Premiere_Pro_test_3",
+  "@id": "./",
+  "@type": [
+    "pb:BlendNode",
+    "pb:BlendInput",
+    "pb:ProceduralNode",
+    "annal:EntityData"
+  ],
+  "annal:member": []
+}

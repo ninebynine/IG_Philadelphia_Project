@@ -1,0 +1,26 @@
+{
+  "@id": "./",
+  "rdfs:label": "Concept",
+  "rdfs:comment": "",
+  "coll:resources": [],
+  "annal:type_id": "ProceduralNode",
+  "pb:generated": [],
+  "pb:used": [
+    {
+      "annal:member": "BlendNode/01_Smoke_film_decision"
+    }
+  ],
+  "annal:member": [
+    {
+      "annal:member": "Journal/00000002"
+    }
+  ],
+  "annal:id": "02_Concept",
+  "pb:wasGeneratedBy": "BlendNode/Smoke_film_decision",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

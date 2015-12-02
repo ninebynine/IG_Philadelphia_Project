@@ -1,0 +1,25 @@
+{
+  "rdfs:label": "Research both songs",
+  "rdfs:comment": "Research both songs: Smoke gets in your eyes, and A foggy day",
+  "coll:resources": [],
+  "annal:type_id": "ProceduralNode",
+  "pb:generated": [],
+  "pb:used": [
+    {
+      "annal:member": "ProceduralNode/05_Possibly_use_2_songs"
+    }
+  ],
+  "annal:member": [
+    {
+      "annal:member": "Journal/00000006"
+    }
+  ],
+  "annal:id": "06_Research_both_songs",
+  "@id": "./",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

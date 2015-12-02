@@ -1,0 +1,21 @@
+{
+  "rdfs:label": "Decision to drop song",
+  "rdfs:comment": "Decision to drop song \"A Foggy day\" (? @@)\r\n\r\n@@ I can't see any reference to this in the journal",
+  "coll:resources": [],
+  "annal:type_id": "ProceduralNode",
+  "pb:generated": [],
+  "pb:used": [],
+  "annal:member": [
+    {
+      "annal:member": "Journal/00000008"
+    }
+  ],
+  "annal:id": "08_Decision_drop_song",
+  "@id": "./",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

@@ -1,0 +1,24 @@
+{
+  "rdfs:label": "Voice recording 1",
+  "rdfs:comment": "Voice recording 1",
+  "coll:resources": [],
+  "annal:type_id": "ProceduralNode",
+  "pb:generated": [],
+  "pb:used": [
+    {
+      "annal:member": "ProceduralNode/02_Music_idea"
+    },
+    {
+      "annal:member": "ProceduralNode/08_Decision_drop_song"
+    }
+  ],
+  "annal:type": "annal:EntityData",
+  "annal:id": "10_Recording_voice_1",
+  "@id": "./",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:member": []
+}

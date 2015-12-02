@@ -1,0 +1,25 @@
+{
+  "rdfs:label": "PRS response: songs in copyright",
+  "rdfs:comment": "PRS response: songs concerned are still in copyright",
+  "coll:resources": [],
+  "annal:type_id": "ProceduralNode",
+  "pb:generated": [],
+  "pb:used": [
+    {
+      "annal:member": "ProceduralNode/06_Contact_PRS"
+    }
+  ],
+  "annal:member": [
+    {
+      "annal:member": "Journal/00000013"
+    }
+  ],
+  "annal:id": "13_PRS_response",
+  "@id": "./",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

@@ -23,11 +23,6 @@
     {
       "annal:property_uri": "",
       "annal:field_placement": "small:0,12",
-      "annal:field_id": "_field/BlendNode"
-    },
-    {
-      "annal:property_uri": "",
-      "annal:field_placement": "small:0,12",
       "annal:field_id": "_field/Journal_refs"
     },
     {
@@ -38,10 +33,10 @@
   ],
   "rdfs:label": "Blend output view",
   "rdfs:comment": "Blend output view",
-  "annal:id": "BlendOutput",
+  "annal:open_view": true,
   "annal:type_id": "_view",
   "annal:record_type": "pb:BlendOutput",
-  "annal:open_view": true,
+  "annal:id": "BlendOutput",
   "@id": "./",
   "@type": [
     "annal:View"

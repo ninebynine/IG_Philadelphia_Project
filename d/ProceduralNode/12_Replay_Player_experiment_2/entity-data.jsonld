@@ -1,0 +1,25 @@
+{
+  "rdfs:label": "Replay Player experiment 2",
+  "rdfs:comment": "Replay Player experiment 2\r\n",
+  "coll:resources": [],
+  "annal:type_id": "ProceduralNode",
+  "pb:generated": [],
+  "pb:used": [
+    {
+      "annal:member": "BlendNode/12_Sound_edit_1"
+    }
+  ],
+  "annal:member": [
+    {
+      "annal:member": "Journal/00000012"
+    }
+  ],
+  "annal:id": "12_Replay_Player_experiment_2",
+  "@id": "./",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

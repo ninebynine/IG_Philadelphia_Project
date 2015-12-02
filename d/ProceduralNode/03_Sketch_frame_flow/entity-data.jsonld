@@ -1,0 +1,28 @@
+{
+  "rdfs:label": "Sketch frame flow",
+  "rdfs:comment": "",
+  "coll:resources": [],
+  "annal:type_id": "ProceduralNode",
+  "pb:generated": [],
+  "pb:used": [
+    {
+      "annal:member": "ProceduralNode/02_Aesthetics_appearance"
+    },
+    {
+      "annal:member": "ProceduralNode/02_Concept"
+    }
+  ],
+  "annal:member": [
+    {
+      "annal:member": "Journal/00000003"
+    }
+  ],
+  "annal:id": "03_Sketch_frame_flow",
+  "@id": "./",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

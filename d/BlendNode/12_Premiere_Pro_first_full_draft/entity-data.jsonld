@@ -1,0 +1,29 @@
+{
+  "rdfs:label": "Premiere Pro first full draft",
+  "rdfs:comment": "Premiere Pro first full draft",
+  "coll:resources": [],
+  "annal:type_id": "BlendNode",
+  "pb:generated": [],
+  "pb:used": [
+    {
+      "annal:member": "ProceduralNode/09_Premiere_Pro_sequence_test"
+    },
+    {
+      "annal:member": "BlendNode/12_Sound_edit_2"
+    }
+  ],
+  "annal:member": [
+    {
+      "annal:member": "Journal/00000012"
+    }
+  ],
+  "annal:id": "12_Premiere_Pro_first_full_draft",
+  "@id": "./",
+  "@type": [
+    "pb:BlendNode",
+    "pb:BlendInput",
+    "pb:ProceduralNode",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

@@ -1,5 +1,5 @@
 {
-  "rdfs:label": "Procedural output",
+  "rdfs:label": "Output",
   "rdfs:comment": "Any notion or entity resulting from a Procedural or Blend node.\r\n\r\nProcedural outputs can include Blend outputs, which are generally considered to be enduring results of the process (e.g. final or intermediate works), or crystalized constructs or ideas that inform subsequent stages of the process.",
   "annal:field_aliases": [],
   "annal:type_id": "_type",

@@ -1,0 +1,26 @@
+{
+  "rdfs:label": "Getty archive response re London images",
+  "rdfs:comment": "Getty archive response declining permission to use London fog images",
+  "coll:resources": [],
+  "annal:type_id": "ProceduralNode",
+  "pb:generated": [],
+  "pb:used": [
+    {
+      "annal:member": "ProceduralNode/05_Contact_getty_images"
+    }
+  ],
+  "pb:wasGeneratedBy": "",
+  "annal:type": "annal:EntityData",
+  "annal:id": "05_Getty_archive_response",
+  "@id": "./",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:member": [
+    {
+      "annal:member": "Journal/00000005"
+    }
+  ]
+}

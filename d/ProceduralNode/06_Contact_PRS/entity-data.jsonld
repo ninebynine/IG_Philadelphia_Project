@@ -1,0 +1,31 @@
+{
+  "rdfs:label": "Contact PRS",
+  "rdfs:comment": "Contact PRS about music copyright for Smoke gets in your eyes and A foggy day\r\n\r\n@@ Inputs not exactly matching diagram\r\n",
+  "coll:resources": [],
+  "annal:type_id": "ProceduralNode",
+  "pb:generated": [],
+  "pb:used": [
+    {
+      "annal:member": "ProceduralNode/02_Music_idea_london"
+    },
+    {
+      "annal:member": "ProceduralNode/02_Music_idea"
+    },
+    {
+      "annal:member": "ProceduralNode/01_Researching_music_copyright"
+    }
+  ],
+  "annal:type": "annal:EntityData",
+  "annal:id": "06_Contact_PRS",
+  "@id": "./",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:member": [
+    {
+      "annal:member": "Journal/00000006"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "rdfs:label": "Consider 2 versions of film",
+  "rdfs:comment": "Have identified alternative music, and also noted that there are different archives holding US and London images.  Therefore consider making 2 separate films.",
+  "coll:resources": [],
+  "annal:type_id": "ProceduralNode",
+  "pb:generated": [
+    {
+      "annal:member": ""
+    }
+  ],
+  "pb:used": [
+    {
+      "annal:member": "ProceduralNode/02_Researching_image_copyright"
+    },
+    {
+      "annal:member": "ProceduralNode/02_Music_idea_london"
+    }
+  ],
+  "annal:type": "annal:EntityData",
+  "annal:id": "05_Consider_2_versions",
+  "@id": "./",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:member": [
+    {
+      "annal:member": "Journal/00000005"
+    }
+  ]
+}

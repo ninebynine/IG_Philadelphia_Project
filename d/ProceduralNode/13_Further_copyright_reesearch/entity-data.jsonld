@@ -1,0 +1,25 @@
+{
+  "rdfs:label": "Further research into copyright of songs",
+  "rdfs:comment": "",
+  "coll:resources": [],
+  "annal:type_id": "ProceduralNode",
+  "pb:generated": [],
+  "pb:used": [
+    {
+      "annal:member": "ProceduralNode/13_PRS_response"
+    }
+  ],
+  "annal:type": "annal:EntityData",
+  "annal:id": "13_Further_copyright_reesearch",
+  "@id": "./",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:member": [
+    {
+      "annal:member": "Journal/00000013"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "rdfs:label": "Past practice",
+  "rdfs:comment": "",
+  "coll:resources": [],
+  "annal:type_id": "BlendInput",
+  "annal:type": "annal:EntityData",
+  "annal:id": "00_Past_practice",
+  "@id": "./",
+  "@type": [
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:member": []
+}

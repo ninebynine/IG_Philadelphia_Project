@@ -1,0 +1,25 @@
+{
+  "rdfs:label": "Research further songs",
+  "rdfs:comment": "Research further songs to possibly use in addition or in place of those already identified.",
+  "coll:resources": [],
+  "annal:type_id": "ProceduralNode",
+  "pb:generated": [],
+  "pb:used": [
+    {
+      "annal:member": "ProceduralNode/06_Research_both_songs"
+    }
+  ],
+  "annal:type": "annal:EntityData",
+  "annal:id": "07_Research_further_songs",
+  "@id": "./",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:member": [
+    {
+      "annal:member": "Journal/00000007"
+    }
+  ]
+}

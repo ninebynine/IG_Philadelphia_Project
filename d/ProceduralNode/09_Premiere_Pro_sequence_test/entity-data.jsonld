@@ -1,0 +1,25 @@
+{
+  "rdfs:label": "Premiere Pro sequence test",
+  "rdfs:comment": "Premiere Pro sequence test",
+  "coll:resources": [],
+  "annal:type_id": "ProceduralNode",
+  "pb:generated": [],
+  "pb:used": [
+    {
+      "annal:member": "ProceduralNode/09_Image_sequence_work"
+    }
+  ],
+  "annal:member": [
+    {
+      "annal:member": "Journal/00000009"
+    }
+  ],
+  "annal:id": "09_Premiere_Pro_sequence_test",
+  "@id": "./",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}
