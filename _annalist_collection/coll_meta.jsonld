@@ -1,9 +1,12 @@
 {
   "rdfs:label": "An artist's take on Philadelphia air quality c. mid 1900s",
   "rdfs:comment": "",
-  "annal:software_version": "0.1.20",
-  "annal:type_id": "_collection",
+  "annal:software_version": "0.1.23",
+  "annal:type_id": "_coll",
   "annal:default_list": "Journal_entries",
+  "@context": [
+    "coll_context.jsonld"
+  ],
   "annal:id": "IG_Philadelphia_Project",
   "@id": "../",
   "@type": [

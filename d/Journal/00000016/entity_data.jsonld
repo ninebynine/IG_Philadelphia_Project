@@ -1,21 +1,24 @@
 {
-  "rdfs:label": "Log Entry 16",
+  "@id": "./",
+  "rdfs:label": "Log Entry 16 - PB updated",
   "rdfs:comment": "Continuing with PB blend diagram. Today I will tidy up blend field one and insert the remaining blend fields. I am also re-thinking some of the inputs: e.g. adding a \"past practice\" input at the beginning of BF1 and inserting a separate Premiere Pro [tutorials] i/p. \r\n\r\nUploaded below is a next PB blend diagram draft. Still needs work...",
   "coll:resources": [],
   "annal:type_id": "Journal",
   "coll:audio_clips": [],
-  "coll:date": "2015-08-28",
-  "coll:date__2": "studio",
-  "coll:images": [
-    {
-      "coll:Image": "PB_Illustrator_2"
-    }
-  ],
-  "annal:id": "00000016",
-  "@id": "./",
   "@type": [
     "coll:Journal",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "coll:date": "2015-08-28",
+  "annal:id": "00000016",
+  "coll:date__2": "studio",
+  "coll:images": [
+    {
+      "coll:Image": "Image/PB_Illustrator_2"
+    }
+  ],
+  "annal:type": "coll:Journal"
 }
