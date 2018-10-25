@@ -1,19 +1,25 @@
 {
-  "rdfs:label": "ReplayPlayer sound experiment 1",
-  "rdfs:comment": "This is an edit compiling some of the sonic experiments using an original mono voice recording in ReplayPlayer, compressed into a low res mp3 (at 96 kbps). See screengrab_audio1 for the settings.",
-  "coll:audio_clip": {
-    "upload_name": "Uploaded_audio",
-    "uploaded_size": 2529462,
-    "resource_name": "Uploaded_audio.mp3",
-    "uploaded_file": "Smoke1-experiments.mp3",
-    "resource_type": "audio/mpeg"
-  },
-  "annal:type_id": "Audio",
-  "annal:id": "sound_experiment_1",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Audio/sound_experiment_1",
   "@type": [
-    "coll:Audio",
+    "annal:Audio",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "sound_experiment_1",
+  "annal:type": "annal:Audio",
+  "annal:type_id": "Audio",
+  "rdfs:comment": "This is an edit compiling some of the sonic experiments using an original mono voice recording in ReplayPlayer, compressed into a low res mp3 (at 96 kbps). See screengrab_audio1 for the settings.",
+  "rdfs:label": "ReplayPlayer sound experiment 1",
+  "resource:uploaded_audio": {
+    "resource_name": "Uploaded_audio.mp3",
+    "resource_type": "audio/mpeg",
+    "upload_name": "Uploaded_audio",
+    "uploaded_file": "Smoke1-experiments.mp3",
+    "uploaded_size": 2529462
+  }
 }

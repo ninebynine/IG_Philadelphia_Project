@@ -1,35 +1,41 @@
 {
-  "rdfs:label": "Log Entry 12",
-  "rdfs:comment": "Today I created a first full draft of the piece, which I have added to [YouTube](http://youtu.be/j3n0muR7ePA). The idea change somewhat whilst working. I tried out the collage idea, but it felt far too dense. I felt that the \"soundtrack\" needed more space and dynamical variation. I worked with a further track in ReplyPlayer and this proved a more satisfying way forward once edited (I selected the most suitable parts, changed order). I then used one of the initial recordings for the ending.\r\n\r\n## Thinking along the way: ##\r\n\r\n* restricted sonic frequency range > restricted visibility\r\n* no low frequencies > white fog\r\n\r\n## Still needs considering/working on: ##\r\n\r\n* sepia images? If I do, I will need to download Adobe After Effects\r\n* take out the last night images?\r\n* length of images\r\n* revisit transitions - some are too abrupt. Overall could still be slower.\r\n* sound intro and ending?\r\n* need to check credits\r\n* sound and image gel in some places. not in others. Once I have transitions done, need to revisit sound too\r\n\r\n ",
-  "coll:resources": [
+  "@context": [
     {
-      "coll:web_resource_m": "Smoke_FullDraft1"
-    }
-  ],
-  "annal:type_id": "Journal",
-  "coll:audio_clips": [
-    {
-      "coll:uploaded_audio_m": "sound_experiment_2"
-    }
-  ],
-  "coll:images": [
-    {
-      "coll:Image": "Tools2"
+      "@base": "../../"
     },
-    {
-      "coll:Image": "screengrab_audio2"
-    },
-    {
-      "coll:Image": "screenshot_audio_waveform"
-    }
+    "../../coll_context.jsonld"
   ],
-  "coll:date__2": "studio",
+  "@id": "Journal/00000012",
   "@type": [
-    "coll:Journal",
+    "journal:Journal",
     "annal:EntityData"
   ],
   "annal:id": "00000012",
-  "@id": "./",
-  "coll:date": "2015-08-20",
-  "annal:type": "annal:EntityData"
+  "annal:type": "journal:Journal",
+  "annal:type_id": "Journal",
+  "journal:date": "2015-08-20",
+  "journal:location": "studio",
+  "rdfs:comment": "Today I created a first full draft of the piece, which I have added to [YouTube](http://youtu.be/j3n0muR7ePA). The idea change somewhat whilst working. I tried out the collage idea, but it felt far too dense. I felt that the \"soundtrack\" needed more space and dynamical variation. I worked with a further track in ReplyPlayer and this proved a more satisfying way forward once edited (I selected the most suitable parts, changed order). I then used one of the initial recordings for the ending.\r\n\r\n## Thinking along the way: ##\r\n\r\n* restricted sonic frequency range > restricted visibility\r\n* no low frequencies > white fog\r\n\r\n## Still needs considering/working on: ##\r\n\r\n* sepia images? If I do, I will need to download Adobe After Effects\r\n* take out the last night images?\r\n* length of images\r\n* revisit transitions - some are too abrupt. Overall could still be slower.\r\n* sound intro and ending?\r\n* need to check credits\r\n* sound and image gel in some places. not in others. Once I have transitions done, need to revisit sound too\r\n\r\n ",
+  "rdfs:label": "Log Entry 12",
+  "resource:resources": [
+    {
+      "resource:web_resource_m": "Smoke_FullDraft1"
+    }
+  ],
+  "resource:uploaded_audio_r": [
+    {
+      "resource:uploaded_audio_m": "sound_experiment_2"
+    }
+  ],
+  "resource:uploaded_image_r": [
+    {
+      "resource:uploaded_image_m": "Tools2"
+    },
+    {
+      "resource:uploaded_image_m": "screengrab_audio2"
+    },
+    {
+      "resource:uploaded_image_m": "screenshot_audio_waveform"
+    }
+  ]
 }

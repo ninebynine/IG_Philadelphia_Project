@@ -1,25 +1,31 @@
 {
-  "rdfs:label": "Research image copyright",
-  "rdfs:comment": "Contact agencies/archives about use of copyright materials.\r\n\r\n(BBC, Daily Mail, Guardian. Getty Images. Will need a fair amount (at 6 sec/frame > 5min needs 150pix))",
-  "coll:resources": [],
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "ProceduralNode/02_Researching_image_copyright",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:id": "02_Researching_image_copyright",
+  "annal:type": "pb:ProceduralNode",
   "annal:type_id": "ProceduralNode",
+  "journal:refs": [
+    {
+      "annal:member": "Journal/00000002"
+    }
+  ],
   "pb:generated": [],
   "pb:used": [
     {
       "annal:member": "ProceduralNode/02_Image_research"
     }
   ],
-  "annal:member": [
-    {
-      "annal:member": "Journal/00000002"
-    }
-  ],
-  "annal:id": "02_Researching_image_copyright",
-  "@id": "./",
-  "@type": [
-    "pb:ProceduralNode",
-    "pb:BlendInput",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Contact agencies/archives about use of copyright materials.\r\n\r\n(BBC, Daily Mail, Guardian. Getty Images. Will need a fair amount (at 6 sec/frame > 5min needs 150pix))",
+  "rdfs:label": "Research image copyright",
+  "resource:resources": []
 }

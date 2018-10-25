@@ -1,19 +1,25 @@
 {
-  "rdfs:label": "Fifth voice recording",
-  "rdfs:comment": "Low res mp3 version of a 5th voice recording, this time recorded through the sound card (Edirol FA-101) and a reverb (TC Helicon, setting 6) into Max.",
-  "coll:audio_clip": {
-    "upload_name": "Uploaded_audio",
-    "resource_name": "Uploaded_audio.mp3",
-    "uploaded_size": 1800959,
-    "uploaded_file": "Smoke-voice5.mp3",
-    "resource_type": "audio/mpeg"
-  },
-  "annal:type_id": "Audio",
-  "annal:id": "smoke_voice_5",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Audio/smoke_voice_5",
   "@type": [
-    "coll:Audio",
+    "annal:Audio",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "smoke_voice_5",
+  "annal:type": "annal:Audio",
+  "annal:type_id": "Audio",
+  "rdfs:comment": "Low res mp3 version of a 5th voice recording, this time recorded through the sound card (Edirol FA-101) and a reverb (TC Helicon, setting 6) into Max.",
+  "rdfs:label": "Fifth voice recording",
+  "resource:uploaded_audio": {
+    "resource_name": "Uploaded_audio.mp3",
+    "resource_type": "audio/mpeg",
+    "upload_name": "Uploaded_audio",
+    "uploaded_file": "Smoke-voice5.mp3",
+    "uploaded_size": 1800959
+  }
 }

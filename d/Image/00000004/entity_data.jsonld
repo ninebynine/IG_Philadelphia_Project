@@ -1,13 +1,19 @@
 {
-  "rdfs:label": "",
-  "rdfs:comment": "",
-  "annal:type_id": "Image",
-  "coll:image": "",
-  "annal:id": "00000004",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Image/00000004",
   "@type": [
-    "coll:Image",
+    "annal:Image",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "00000004",
+  "annal:type": "annal:Image",
+  "annal:type_id": "Image",
+  "rdfs:comment": "",
+  "rdfs:label": "",
+  "resource:uploaded_image": ""
 }

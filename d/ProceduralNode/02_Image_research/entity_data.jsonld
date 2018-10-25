@@ -1,25 +1,31 @@
 {
-  "rdfs:label": "Researching images from London, China",
-  "rdfs:comment": "Initial Google trawl for relevant and/or usable images.\r\n\r\nOn the whole I prefer older b&w images. They create a different flavour. So, if there not enough Philadelphia images, I could use London 1952 ones, there seem to be a great amount of images. ",
-  "coll:resources": [],
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "ProceduralNode/02_Image_research",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:id": "02_Image_research",
+  "annal:type": "pb:ProceduralNode",
   "annal:type_id": "ProceduralNode",
+  "journal:refs": [
+    {
+      "annal:member": "Journal/00000002"
+    }
+  ],
   "pb:generated": [],
   "pb:used": [
     {
       "annal:member": "BlendNode/01_Smoke_film_decision"
     }
   ],
-  "annal:type": "annal:EntityData",
-  "annal:id": "02_Image_research",
-  "@id": "./",
-  "@type": [
-    "pb:ProceduralNode",
-    "pb:BlendInput",
-    "annal:EntityData"
-  ],
-  "annal:member": [
-    {
-      "annal:member": "Journal/00000002"
-    }
-  ]
+  "rdfs:comment": "Initial Google trawl for relevant and/or usable images.\r\n\r\nOn the whole I prefer older b&w images. They create a different flavour. So, if there not enough Philadelphia images, I could use London 1952 ones, there seem to be a great amount of images. ",
+  "rdfs:label": "Researching images from London, China",
+  "resource:resources": []
 }

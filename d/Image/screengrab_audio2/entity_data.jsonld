@@ -1,19 +1,25 @@
 {
-  "rdfs:label": "ReplayPlayer audio test 2",
-  "rdfs:comment": "This is a screen grab showing the settings for the second ReplayPlayer session, which formed the base for the sound track of the first full draft of the film. See sound_experiment_2 for the actual recording.",
-  "annal:type_id": "Image",
-  "coll:image": {
-    "upload_name": "Uploaded_image",
-    "uploaded_size": 191961,
-    "resource_name": "Uploaded_image.jpg",
-    "uploaded_file": "screengrab-audiotest2.jpg",
-    "resource_type": "image/jpeg"
-  },
-  "annal:id": "screengrab_audio2",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Image/screengrab_audio2",
   "@type": [
-    "coll:Image",
+    "annal:Image",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "screengrab_audio2",
+  "annal:type": "annal:Image",
+  "annal:type_id": "Image",
+  "rdfs:comment": "This is a screen grab showing the settings for the second ReplayPlayer session, which formed the base for the sound track of the first full draft of the film. See sound_experiment_2 for the actual recording.",
+  "rdfs:label": "ReplayPlayer audio test 2",
+  "resource:uploaded_image": {
+    "resource_name": "Uploaded_image.jpg",
+    "resource_type": "image/jpeg",
+    "upload_name": "Uploaded_image",
+    "uploaded_file": "screengrab-audiotest2.jpg",
+    "uploaded_size": 191961
+  }
 }

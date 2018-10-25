@@ -1,33 +1,39 @@
 {
-  "rdfs:label": "Log Entry 11",
-  "rdfs:comment": "I've decided that, this being a collection of data pertaining to the making of the piece, I will have to upload at least some of the audio. I have edited some ReplayPlayer experiments into one file. Space being an issue I have compressed sound into a low res mp3 file at 96kbps. See below, *smoke voice 1* and *voice experiment 1*.\r\n\r\n** Interesting question: ** how much of one's mishaps and experiments the artist wants to make public??? \r\n\r\n** Note:** at the moment, the edited photographs plus basic titles come out at 4.16min. I might take the last two night images out of the sequence. Not sure they are working.\r\n\r\nContinuing to work on the sound, the day progressed in a very frustrating fashion due to faulty cables that need ferrying out. That accomplished things became more satisfying. I recorded a number of other vice tacks, this time through my sound card and some with a reverb. Each is sung in a slightly different key and speed, so when playing them together, a somewhat strange choir emerged which I feel might be a more interesting way forward. Perhaps a sonic \"fog\" analogy?\r\n\r\nMost of the individual recordings are below.\r\n\r\nTomorrow I will continue with trying to collage together a composition from the recordings done so far. It's all bit short so far and it needs some more quiet passages.",
-  "coll:resources": [],
-  "annal:type_id": "Journal",
-  "coll:audio_clips": [
+  "@context": [
     {
-      "coll:uploaded_audio_m": "sound_experiment_1"
+      "@base": "../../"
     },
-    {
-      "coll:uploaded_audio_m": "smoke_voice_1"
-    },
-    {
-      "coll:uploaded_audio_m": "smoke_voice_3"
-    },
-    {
-      "coll:uploaded_audio_m": "smoke_voice_4"
-    },
-    {
-      "coll:uploaded_audio_m": "smoke_voice_5"
-    }
+    "../../coll_context.jsonld"
   ],
-  "coll:date": "2015-08-19",
-  "coll:date__2": "studio",
-  "coll:images": [],
-  "annal:id": "00000011",
-  "@id": "./",
+  "@id": "Journal/00000011",
   "@type": [
-    "coll:Journal",
+    "journal:Journal",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "00000011",
+  "annal:type": "journal:Journal",
+  "annal:type_id": "Journal",
+  "journal:date": "2015-08-19",
+  "journal:location": "studio",
+  "rdfs:comment": "I've decided that, this being a collection of data pertaining to the making of the piece, I will have to upload at least some of the audio. I have edited some ReplayPlayer experiments into one file. Space being an issue I have compressed sound into a low res mp3 file at 96kbps. See below, *smoke voice 1* and *voice experiment 1*.\r\n\r\n** Interesting question: ** how much of one's mishaps and experiments the artist wants to make public??? \r\n\r\n** Note:** at the moment, the edited photographs plus basic titles come out at 4.16min. I might take the last two night images out of the sequence. Not sure they are working.\r\n\r\nContinuing to work on the sound, the day progressed in a very frustrating fashion due to faulty cables that need ferrying out. That accomplished things became more satisfying. I recorded a number of other vice tacks, this time through my sound card and some with a reverb. Each is sung in a slightly different key and speed, so when playing them together, a somewhat strange choir emerged which I feel might be a more interesting way forward. Perhaps a sonic \"fog\" analogy?\r\n\r\nMost of the individual recordings are below.\r\n\r\nTomorrow I will continue with trying to collage together a composition from the recordings done so far. It's all bit short so far and it needs some more quiet passages.",
+  "rdfs:label": "Log Entry 11",
+  "resource:resources": [],
+  "resource:uploaded_audio_r": [
+    {
+      "resource:uploaded_audio_m": "sound_experiment_1"
+    },
+    {
+      "resource:uploaded_audio_m": "smoke_voice_1"
+    },
+    {
+      "resource:uploaded_audio_m": "smoke_voice_3"
+    },
+    {
+      "resource:uploaded_audio_m": "smoke_voice_4"
+    },
+    {
+      "resource:uploaded_audio_m": "smoke_voice_5"
+    }
+  ],
+  "resource:uploaded_image_r": []
 }

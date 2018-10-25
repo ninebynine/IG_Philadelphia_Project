@@ -1,19 +1,25 @@
 {
-  "rdfs:label": "Final image",
-  "rdfs:comment": "The final stamped image in the sequence.",
-  "annal:type_id": "Image",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Image/London_1_crop_ed_last",
   "@type": [
-    "coll:Image",
+    "annal:Image",
     "annal:EntityData"
   ],
   "annal:id": "London_1_crop_ed_last",
-  "@id": "./",
-  "coll:image": {
-    "upload_name": "Uploaded_image",
+  "annal:type": "annal:Image",
+  "annal:type_id": "Image",
+  "rdfs:comment": "The final stamped image in the sequence.",
+  "rdfs:label": "Final image",
+  "resource:uploaded_image": {
     "resource_name": "Uploaded_image.jpg",
-    "uploaded_size": 52754,
+    "resource_type": "image/jpeg",
+    "upload_name": "Uploaded_image",
     "uploaded_file": "London22.jpg",
-    "resource_type": "image/jpeg"
-  },
-  "annal:type": "annal:EntityData"
+    "uploaded_size": 52754
+  }
 }

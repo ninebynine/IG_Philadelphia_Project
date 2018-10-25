@@ -1,19 +1,25 @@
 {
-  "rdfs:label": "ReplayPlayer audio test 1",
-  "rdfs:comment": "This is a screen grab showing the settings for the first audio test. See sound_experiment_1 for a compilation of the recordings.",
-  "annal:type_id": "Image",
-  "coll:image": {
-    "upload_name": "Uploaded_image",
-    "uploaded_size": 146186,
-    "resource_name": "Uploaded_image.jpg",
-    "uploaded_file": "screengrab-audiotest1.jpg",
-    "resource_type": "image/jpeg"
-  },
-  "annal:id": "screengrab_audio1",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Image/screengrab_audio1",
   "@type": [
-    "coll:Image",
+    "annal:Image",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "screengrab_audio1",
+  "annal:type": "annal:Image",
+  "annal:type_id": "Image",
+  "rdfs:comment": "This is a screen grab showing the settings for the first audio test. See sound_experiment_1 for a compilation of the recordings.",
+  "rdfs:label": "ReplayPlayer audio test 1",
+  "resource:uploaded_image": {
+    "resource_name": "Uploaded_image.jpg",
+    "resource_type": "image/jpeg",
+    "upload_name": "Uploaded_image",
+    "uploaded_file": "screengrab-audiotest1.jpg",
+    "uploaded_size": 146186
+  }
 }

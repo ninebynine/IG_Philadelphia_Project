@@ -1,19 +1,25 @@
 {
-  "rdfs:label": "Philadelphia ca. 1940-1950",
-  "rdfs:comment": "Credit: Smoke Control Lantern Slide Collection, ca. 1940-1950, AIS.1978.22, Archives Service Center, University of Pittsburgh\r\n",
-  "annal:type_id": "Image",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Image/phily1",
   "@type": [
-    "coll:Image",
+    "annal:Image",
     "annal:EntityData"
   ],
   "annal:id": "phily1",
-  "@id": "./",
-  "coll:image": {
-    "upload_name": "Uploaded_image",
+  "annal:type": "annal:Image",
+  "annal:type_id": "Image",
+  "rdfs:comment": "Credit: Smoke Control Lantern Slide Collection, ca. 1940-1950, AIS.1978.22, Archives Service Center, University of Pittsburgh\r\n",
+  "rdfs:label": "Philadelphia ca. 1940-1950",
+  "resource:uploaded_image": {
     "resource_name": "Uploaded_image.jpg",
-    "uploaded_size": 87077,
+    "resource_type": "image/jpeg",
+    "upload_name": "Uploaded_image",
     "uploaded_file": "Phily1.jpg",
-    "resource_type": "image/jpeg"
-  },
-  "annal:type": "annal:EntityData"
+    "uploaded_size": 87077
+  }
 }

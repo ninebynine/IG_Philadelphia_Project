@@ -1,25 +1,31 @@
 {
-  "rdfs:label": "Download all US images",
-  "rdfs:comment": "Download all US images from U Pittsburgh archive (? @@)",
-  "coll:resources": [],
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "ProceduralNode/07_Download_US_images",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:id": "07_Download_US_images",
+  "annal:type": "pb:ProceduralNode",
   "annal:type_id": "ProceduralNode",
+  "journal:refs": [
+    {
+      "annal:member": "Journal/00000007"
+    }
+  ],
   "pb:generated": [],
   "pb:used": [
     {
       "annal:member": "BlendNode/07_Decide_one_film"
     }
   ],
-  "annal:member": [
-    {
-      "annal:member": "Journal/00000007"
-    }
-  ],
-  "annal:id": "07_Download_US_images",
-  "@id": "./",
-  "@type": [
-    "pb:ProceduralNode",
-    "pb:BlendInput",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Download all US images from U Pittsburgh archive (? @@)",
+  "rdfs:label": "Download all US images",
+  "resource:resources": []
 }

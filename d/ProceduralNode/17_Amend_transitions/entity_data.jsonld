@@ -1,12 +1,24 @@
 {
-  "rdfs:label": "Amendments to transitions",
-  "rdfs:comment": "Amendments to transitions",
-  "coll:resources": [
+  "@context": [
     {
-      "coll:web_resource_m": "Web_resource/Smoke_Film"
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "ProceduralNode/17_Amend_transitions",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:id": "17_Amend_transitions",
+  "annal:type": "pb:ProceduralNode",
+  "annal:type_id": "ProceduralNode",
+  "journal:refs": [
+    {
+      "annal:member": "Journal/00000017"
     }
   ],
-  "annal:type_id": "ProceduralNode",
   "pb:generated": [
     {
       "annal:member": "ProceduralOutput/17_Final_film_output"
@@ -17,17 +29,11 @@
       "annal:member": "ProceduralNode/13_Amend_credits"
     }
   ],
-  "annal:member": [
+  "rdfs:comment": "Amendments to transitions",
+  "rdfs:label": "Amendments to transitions",
+  "resource:resources": [
     {
-      "annal:member": "Journal/00000017"
+      "resource:web_resource_m": "Web_resource/Smoke_Film"
     }
-  ],
-  "annal:id": "17_Amend_transitions",
-  "@id": "./",
-  "@type": [
-    "pb:ProceduralNode",
-    "pb:BlendInput",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  ]
 }

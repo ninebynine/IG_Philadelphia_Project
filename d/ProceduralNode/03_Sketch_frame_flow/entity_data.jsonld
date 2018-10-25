@@ -1,8 +1,24 @@
 {
-  "rdfs:label": "Sketch frame flow",
-  "rdfs:comment": "",
-  "coll:resources": [],
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "ProceduralNode/03_Sketch_frame_flow",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:id": "03_Sketch_frame_flow",
+  "annal:type": "pb:ProceduralNode",
   "annal:type_id": "ProceduralNode",
+  "journal:refs": [
+    {
+      "annal:member": "Journal/00000003"
+    }
+  ],
   "pb:generated": [],
   "pb:used": [
     {
@@ -12,17 +28,7 @@
       "annal:member": "ProceduralNode/02_Concept"
     }
   ],
-  "annal:member": [
-    {
-      "annal:member": "Journal/00000003"
-    }
-  ],
-  "annal:id": "03_Sketch_frame_flow",
-  "@id": "./",
-  "@type": [
-    "pb:ProceduralNode",
-    "pb:BlendInput",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "",
+  "rdfs:label": "Sketch frame flow",
+  "resource:resources": []
 }

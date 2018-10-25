@@ -1,25 +1,31 @@
 {
-  "rdfs:label": "Premiere Pro tutorials",
-  "rdfs:comment": "Looking at Premiere Pro tutorials; finding out what the best options are for this project.",
-  "coll:resources": [],
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "ProceduralNode/08_Premiere_Pro_tutorials",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:id": "08_Premiere_Pro_tutorials",
+  "annal:type": "pb:ProceduralNode",
   "annal:type_id": "ProceduralNode",
+  "journal:refs": [
+    {
+      "annal:member": "Journal/00000008"
+    }
+  ],
   "pb:generated": [],
   "pb:used": [
     {
       "annal:member": "BlendNode/05_Premiere_pro_test_2"
     }
   ],
-  "annal:member": [
-    {
-      "annal:member": "Journal/00000008"
-    }
-  ],
-  "annal:id": "08_Premiere_Pro_tutorials",
-  "@id": "./",
-  "@type": [
-    "pb:ProceduralNode",
-    "pb:BlendInput",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Looking at Premiere Pro tutorials; finding out what the best options are for this project.",
+  "rdfs:label": "Premiere Pro tutorials",
+  "resource:resources": []
 }

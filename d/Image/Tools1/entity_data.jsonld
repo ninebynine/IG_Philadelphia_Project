@@ -1,19 +1,25 @@
 {
-  "rdfs:label": "Tool Breakdown 1",
-  "rdfs:comment": "A snapshot of an Excel sheet breaking down the tools used in this project into 3 blend lines.",
-  "annal:type_id": "Image",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Image/Tools1",
   "@type": [
-    "coll:Image",
+    "annal:Image",
     "annal:EntityData"
   ],
   "annal:id": "Tools1",
-  "@id": "./",
-  "coll:image": {
-    "upload_name": "Uploaded_image",
+  "annal:type": "annal:Image",
+  "annal:type_id": "Image",
+  "rdfs:comment": "A snapshot of an Excel sheet breaking down the tools used in this project into 3 blend lines.",
+  "rdfs:label": "Tool Breakdown 1",
+  "resource:uploaded_image": {
     "resource_name": "Uploaded_image.png",
-    "uploaded_size": 40645,
+    "resource_type": "application/pdf",
+    "upload_name": "Uploaded_image",
     "uploaded_file": "Tools.pdf",
-    "resource_type": "application/pdf"
-  },
-  "annal:type": "annal:EntityData"
+    "uploaded_size": 40645
+  }
 }

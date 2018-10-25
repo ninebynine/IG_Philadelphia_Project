@@ -1,0 +1,21 @@
+{
+  "@context": [
+    {
+      "@base": "./"
+    },
+    "coll_context.jsonld"
+  ],
+  "@id": "../",
+  "@type": [
+    "annal:Collection"
+  ],
+  "annal:default_list": "Journal_entries",
+  "annal:id": "IG_Philadelphia_Project",
+  "annal:inherit_from": "_coll/Journal_defs",
+  "annal:meta_comment": "",
+  "annal:software_version": "0.5.5",
+  "annal:type": "annal:Collection",
+  "annal:type_id": "_coll",
+  "rdfs:comment": "An artist's take on Philadelphia air quality c. mid 1900s",
+  "rdfs:label": "An artist's take on Philadelphia air quality c. mid 1900s (Iris Garrelfs)"
+}

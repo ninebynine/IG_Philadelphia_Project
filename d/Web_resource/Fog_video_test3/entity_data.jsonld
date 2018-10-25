@@ -1,13 +1,19 @@
 {
-  "rdfs:label": "Transition Test 3",
-  "rdfs:comment": "This clip is a third test of how transitions between images might work, includes panning. Hosted on YouTube.",
-  "coll:web_resource": "http://youtu.be/Cn_eKZEdRoM",
-  "annal:type_id": "Web_resource",
-  "annal:id": "Fog_video_test3",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Web_resource/Fog_video_test3",
   "@type": [
-    "coll:Web_resource",
+    "resource:Web_resource",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Fog_video_test3",
+  "annal:type": "resource:Web_resource",
+  "annal:type_id": "Web_resource",
+  "rdfs:comment": "This clip is a third test of how transitions between images might work, includes panning. Hosted on YouTube.",
+  "rdfs:label": "Transition Test 3",
+  "resource:web_resource": "http://youtu.be/Cn_eKZEdRoM"
 }

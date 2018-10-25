@@ -1,0 +1,29 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/BlendOutput",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "BlendOutput",
+  "annal:supertype_uri": [
+    {
+      "@id": "pb:ProceduralOutput"
+    },
+    {
+      "@id": "pb:BlendInput"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/BlendInputs",
+  "annal:type_view": "_view/BlendOutput",
+  "annal:uri": "pb:BlendOutput",
+  "rdfs:comment": "Procedural blend node output\r\n\r\nAn intended enduring output of the creative process.\r\n\r\n(The \"intent\" here may come after their original creation; e.g. intermediate images that were later thought to be interesting in their own right.)\r\n\r\nCompare with \"Blend Exit\", which can be any intermediate result or concept, not necessarily of enduring value.",
+  "rdfs:label": "Blend output"
+}

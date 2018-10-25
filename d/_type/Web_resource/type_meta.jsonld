@@ -1,0 +1,21 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Web_resource",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "Web_resource",
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "Web_resources",
+  "annal:type_view": "Web_resource",
+  "annal:uri": "resource:Web_resource",
+  "rdfs:comment": "Web resource with bearing on the project",
+  "rdfs:label": "Web resource"
+}

@@ -1,13 +1,19 @@
 {
-  "rdfs:label": "Transition Test 2",
-  "rdfs:comment": "This clip is a second test of how transitions between images might work. Hosted on YouTube.",
-  "coll:web_resource": "http://youtu.be/D4EnQnrvDWY",
-  "annal:type_id": "Web_resource",
-  "annal:id": "Fog_video_test2",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Web_resource/Fog_video_test2",
   "@type": [
-    "coll:Web_resource",
+    "resource:Web_resource",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Fog_video_test2",
+  "annal:type": "resource:Web_resource",
+  "annal:type_id": "Web_resource",
+  "rdfs:comment": "This clip is a second test of how transitions between images might work. Hosted on YouTube.",
+  "rdfs:label": "Transition Test 2",
+  "resource:web_resource": "http://youtu.be/D4EnQnrvDWY"
 }

@@ -1,25 +1,31 @@
 {
-  "rdfs:label": "Work on image sequence",
-  "rdfs:comment": "Work on image sequence",
-  "coll:resources": [],
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "ProceduralNode/09_Image_sequence_work",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:id": "09_Image_sequence_work",
+  "annal:type": "pb:ProceduralNode",
   "annal:type_id": "ProceduralNode",
+  "journal:refs": [
+    {
+      "annal:member": "Journal/00000009"
+    }
+  ],
   "pb:generated": [],
   "pb:used": [
     {
       "annal:member": "BlendNode/08_Premiere_Pro_test_3"
     }
   ],
-  "annal:member": [
-    {
-      "annal:member": "Journal/00000009"
-    }
-  ],
-  "annal:id": "09_Image_sequence_work",
-  "@id": "./",
-  "@type": [
-    "pb:ProceduralNode",
-    "pb:BlendInput",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Work on image sequence",
+  "rdfs:label": "Work on image sequence",
+  "resource:resources": []
 }

@@ -1,25 +1,31 @@
 {
-  "@id": "./",
-  "rdfs:label": "Log Entry 9",
-  "rdfs:comment": "Today editing starts in earnest. In terms of PB, I am working on the film in two blend lines, a visual and a sonic blend line. \r\n\r\nAs I have not heard back from the PRS I am working on the images today. For starters, in between sketchbook and Premiere I have worked out an image sequence. \r\n\r\nBased on this \"narrative\" I have compiled a first draft of the image sequence, to be found [here](http://youtu.be/V9P_mkZN9Yc). I have added a text slide to the end of the piece. It gives viewers somme context, but only once they've experienced the film without knowing too much about the background.\r\n\r\nMy feeling is that all images could do with longer durations, but I need to have the sound in place now to determine exact length. So, the next step is to make a daft of the audio piece and then go backwards and forwards between sound and image to determine length /transitions.\r\n\r\nI'm also wondering if a light sepia tint on the images and titles might make for an easier viewing option. I figured out how to do this in Premiere and tried out a few images, but no decision so far. It does change the quality of the images to some extent.",
-  "coll:resources": [
+  "@context": [
     {
-      "coll:web_resource_m": "Smoke_draft1"
-    }
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
   ],
-  "annal:type_id": "Journal",
-  "coll:audio_clips": [],
+  "@id": "Journal/00000009",
   "@type": [
-    "coll:Journal",
+    "journal:Journal",
     "annal:EntityData"
   ],
-  "coll:date": "2015-08-17",
   "annal:id": "00000009",
-  "coll:date__2": "studio",
-  "coll:images": [
+  "annal:type": "journal:Journal",
+  "annal:type_id": "Journal",
+  "journal:date": "2015-08-17",
+  "journal:location": "studio",
+  "rdfs:comment": "Today editing starts in earnest. In terms of PB, I am working on the film in two blend lines, a visual and a sonic blend line. \r\n\r\nAs I have not heard back from the PRS I am working on the images today. For starters, in between sketchbook and Premiere I have worked out an image sequence. \r\n\r\nBased on this \"narrative\" I have compiled a first draft of the image sequence, to be found [here](http://youtu.be/V9P_mkZN9Yc). I have added a text slide to the end of the piece. It gives viewers somme context, but only once they've experienced the film without knowing too much about the background.\r\n\r\nMy feeling is that all images could do with longer durations, but I need to have the sound in place now to determine exact length. So, the next step is to make a daft of the audio piece and then go backwards and forwards between sound and image to determine length /transitions.\r\n\r\nI'm also wondering if a light sepia tint on the images and titles might make for an easier viewing option. I figured out how to do this in Premiere and tried out a few images, but no decision so far. It does change the quality of the images to some extent.",
+  "rdfs:label": "Log Entry 9",
+  "resource:resources": [
     {
-      "coll:Image": "Image_Groupings_Sequence"
+      "resource:web_resource_m": "Smoke_draft1"
     }
   ],
-  "annal:type": "annal:EntityData"
+  "resource:uploaded_audio_r": [],
+  "resource:uploaded_image_r": [
+    {
+      "resource:uploaded_image_m": "Image_Groupings_Sequence"
+    }
+  ]
 }

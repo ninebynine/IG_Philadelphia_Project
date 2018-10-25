@@ -1,8 +1,24 @@
 {
-  "rdfs:label": "Possibly use 2 songs found",
-  "rdfs:comment": "Finding second relevant song raises possibility to use 2 songs\r\n\r\n@@Has decision now been made to create two versions?\r\n\r\n@@Inputs here don't entirely align with PB diagram\r\n",
-  "coll:resources": [],
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "ProceduralNode/05_Possibly_use_2_songs",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:id": "05_Possibly_use_2_songs",
+  "annal:type": "pb:ProceduralNode",
   "annal:type_id": "ProceduralNode",
+  "journal:refs": [
+    {
+      "annal:member": "Journal/00000005"
+    }
+  ],
   "pb:generated": [
     {
       "annal:member": ""
@@ -20,17 +36,7 @@
     }
   ],
   "pb:wasGeneratedBy": "",
-  "annal:type": "annal:EntityData",
-  "annal:id": "05_Possibly_use_2_songs",
-  "@id": "./",
-  "@type": [
-    "pb:ProceduralNode",
-    "pb:BlendInput",
-    "annal:EntityData"
-  ],
-  "annal:member": [
-    {
-      "annal:member": "Journal/00000005"
-    }
-  ]
+  "rdfs:comment": "Finding second relevant song raises possibility to use 2 songs\r\n\r\n@@Has decision now been made to create two versions?\r\n\r\n@@Inputs here don't entirely align with PB diagram\r\n",
+  "rdfs:label": "Possibly use 2 songs found",
+  "resource:resources": []
 }

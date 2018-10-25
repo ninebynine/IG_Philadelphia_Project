@@ -1,13 +1,19 @@
 {
-  "rdfs:label": "Google image search",
-  "rdfs:comment": "The result of a Google mage source. ",
-  "coll:web_resource": "https://www.google.co.uk/search?q=smog&client=safari&rls=en&source=lnms&tbm=isch&sa=X&ved=0CAgQ_AUoAmoVChMIz5e7jK6WxwIVSuwUCh3vogD1&biw=1515&bih=870#imgrc=HmMX5mrwBaln3M%3A ",
-  "annal:type_id": "Web_resource",
-  "annal:id": "Google_image_search",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Web_resource/Google_image_search",
   "@type": [
-    "coll:Web_resource",
+    "resource:Web_resource",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Google_image_search",
+  "annal:type": "resource:Web_resource",
+  "annal:type_id": "Web_resource",
+  "rdfs:comment": "The result of a Google mage source. ",
+  "rdfs:label": "Google image search",
+  "resource:web_resource": "https://www.google.co.uk/search?q=smog&client=safari&rls=en&source=lnms&tbm=isch&sa=X&ved=0CAgQ_AUoAmoVChMIz5e7jK6WxwIVSuwUCh3vogD1&biw=1515&bih=870#imgrc=HmMX5mrwBaln3M%3A"
 }

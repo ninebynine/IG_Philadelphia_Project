@@ -1,13 +1,19 @@
 {
-  "rdfs:label": "London Fog 1952 Images from Getty Images",
-  "rdfs:comment": "A collection of images from the great London Fog in 1952, available at Getty Images",
-  "coll:web_resource": "http://www.gettyimages.co.uk/photos/london-fog-1952?family=editorial&phrase=london%20fog%201952&sort=best&excludenudity=true",
-  "annal:type_id": "Web_resource",
-  "annal:id": "London_GettyImages_1",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Web_resource/London_GettyImages_1",
   "@type": [
-    "coll:Web_resource",
+    "resource:Web_resource",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "London_GettyImages_1",
+  "annal:type": "resource:Web_resource",
+  "annal:type_id": "Web_resource",
+  "rdfs:comment": "A collection of images from the great London Fog in 1952, available at Getty Images",
+  "rdfs:label": "London Fog 1952 Images from Getty Images",
+  "resource:web_resource": "http://www.gettyimages.co.uk/photos/london-fog-1952?family=editorial&phrase=london%20fog%201952&sort=best&excludenudity=true"
 }

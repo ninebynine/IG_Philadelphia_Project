@@ -1,24 +1,30 @@
 {
-  "rdfs:label": "Log Entry 13",
-  "rdfs:comment": "I received confirmation from the PRS that the titles are still in copyright. When looking through copyright information again (on PRS website and UK government website) I realised that unfortunately I had made a mistake. Copyright ends not 70 years after the piece was created, but 70 years after the death of the authors (Kern 1945 / Harbach 1963)\r\n\r\nHowever, there are exceptions and thankfully my use would fall under the following (I use the music for research, it's not the complete song, and it won't have commercial implication) : \r\n\r\n> **Non-commercial research and private study**\r\nYou are allowed to copy limited extracts of works when the use is non-commercial research or private study, but you must be genuinely studying (like you would if you were taking a college course). Such use is only permitted when it is \u2018fair dealing\u2019 and copying the whole work would not generally be considered fair dealing.\r\nThe purpose of this exception is to allow students and researchers to make limited copies of all types of copyright works for non-commercial research or private study. In assessing whether your use of the work is permitted or not you must assess if there is any financial impact on the copyright owner because of your use. Where the impact is not significant, the use may be acceptable.\r\nIf your use is for non-commercial research you must ensure that the work you reproduce is supported by a sufficient acknowledgment. From [https://www.gov.uk/exceptions-to-copyright](https://www.gov.uk/exceptions-to-copyright)\r\n\r\nI will amend the credit to identify UNIVERSAL MUSIC PUBLISHING LIMITED as the copyright holder. I'm also fine-tuning some of the transitions, which is proving more fiddly than anticipated. Not too satisfied so far.\r\n\r\nI also had a quick look around for public domain titles: [http://www.pdinfo.com/public-domain-music-list.php](http://www.pdinfo.com/public-domain-music-list.php). \r\n\r\nAn interesting quote from that site:\r\n\r\n>Any Song or Musical Work Published in 1922 or Earlier is in the Public Domain in the USA. No Sound Recordings are PD in the USA due to a tangled complexity of Federal and State Law.",
-  "coll:resources": [
+  "@context": [
     {
-      "coll:web_resource_m": "Gov_copyright_info"
+      "@base": "../../"
     },
-    {
-      "coll:web_resource_m": "US_PublicDomain_songs"
-    }
+    "../../coll_context.jsonld"
   ],
-  "annal:type_id": "Journal",
-  "coll:audio_clips": [],
-  "coll:date": "2015-08-15",
-  "coll:date__2": "studio",
-  "coll:images": [],
-  "annal:id": "00000013",
-  "@id": "./",
+  "@id": "Journal/00000013",
   "@type": [
-    "coll:Journal",
+    "journal:Journal",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "00000013",
+  "annal:type": "journal:Journal",
+  "annal:type_id": "Journal",
+  "journal:date": "2015-08-15",
+  "journal:location": "studio",
+  "rdfs:comment": "I received confirmation from the PRS that the titles are still in copyright. When looking through copyright information again (on PRS website and UK government website) I realised that unfortunately I had made a mistake. Copyright ends not 70 years after the piece was created, but 70 years after the death of the authors (Kern 1945 / Harbach 1963)\r\n\r\nHowever, there are exceptions and thankfully my use would fall under the following (I use the music for research, it's not the complete song, and it won't have commercial implication) : \r\n\r\n> **Non-commercial research and private study**\r\nYou are allowed to copy limited extracts of works when the use is non-commercial research or private study, but you must be genuinely studying (like you would if you were taking a college course). Such use is only permitted when it is \u2018fair dealing\u2019 and copying the whole work would not generally be considered fair dealing.\r\nThe purpose of this exception is to allow students and researchers to make limited copies of all types of copyright works for non-commercial research or private study. In assessing whether your use of the work is permitted or not you must assess if there is any financial impact on the copyright owner because of your use. Where the impact is not significant, the use may be acceptable.\r\nIf your use is for non-commercial research you must ensure that the work you reproduce is supported by a sufficient acknowledgment. From [https://www.gov.uk/exceptions-to-copyright](https://www.gov.uk/exceptions-to-copyright)\r\n\r\nI will amend the credit to identify UNIVERSAL MUSIC PUBLISHING LIMITED as the copyright holder. I'm also fine-tuning some of the transitions, which is proving more fiddly than anticipated. Not too satisfied so far.\r\n\r\nI also had a quick look around for public domain titles: [http://www.pdinfo.com/public-domain-music-list.php](http://www.pdinfo.com/public-domain-music-list.php). \r\n\r\nAn interesting quote from that site:\r\n\r\n>Any Song or Musical Work Published in 1922 or Earlier is in the Public Domain in the USA. No Sound Recordings are PD in the USA due to a tangled complexity of Federal and State Law.",
+  "rdfs:label": "Log Entry 13",
+  "resource:resources": [
+    {
+      "resource:web_resource_m": "Gov_copyright_info"
+    },
+    {
+      "resource:web_resource_m": "US_PublicDomain_songs"
+    }
+  ],
+  "resource:uploaded_audio_r": [],
+  "resource:uploaded_image_r": []
 }

@@ -1,19 +1,25 @@
 {
-  "rdfs:label": "Image Groupings and Sequences",
-  "rdfs:comment": "An excerpt from sketch book working out image groupings and a sequence.",
-  "annal:type_id": "Image",
-  "coll:image": {
-    "upload_name": "Uploaded_image",
-    "resource_name": "Uploaded_image.png",
-    "uploaded_size": 1210896,
-    "uploaded_file": "Fog_ImageGroupings-sequences.pdf",
-    "resource_type": "application/pdf"
-  },
-  "annal:id": "Image_Groupings_Sequence",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Image/Image_Groupings_Sequence",
   "@type": [
-    "coll:Image",
+    "annal:Image",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Image_Groupings_Sequence",
+  "annal:type": "annal:Image",
+  "annal:type_id": "Image",
+  "rdfs:comment": "An excerpt from sketch book working out image groupings and a sequence.",
+  "rdfs:label": "Image Groupings and Sequences",
+  "resource:uploaded_image": {
+    "resource_name": "Uploaded_image.png",
+    "resource_type": "application/pdf",
+    "upload_name": "Uploaded_image",
+    "uploaded_file": "Fog_ImageGroupings-sequences.pdf",
+    "uploaded_size": 1210896
+  }
 }

@@ -1,8 +1,24 @@
 {
-  "rdfs:label": "Amendments to credits",
-  "rdfs:comment": "Amendments to credits",
-  "coll:resources": [],
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "ProceduralNode/13_Amend_credits",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:id": "13_Amend_credits",
+  "annal:type": "pb:ProceduralNode",
   "annal:type_id": "ProceduralNode",
+  "journal:refs": [
+    {
+      "annal:member": "Journal/00000013"
+    }
+  ],
   "pb:generated": [],
   "pb:used": [
     {
@@ -12,17 +28,7 @@
       "annal:member": "ProceduralNode/13_Further_copyright_reesearch"
     }
   ],
-  "annal:member": [
-    {
-      "annal:member": "Journal/00000013"
-    }
-  ],
-  "annal:id": "13_Amend_credits",
-  "@id": "./",
-  "@type": [
-    "pb:ProceduralNode",
-    "pb:BlendInput",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Amendments to credits",
+  "rdfs:label": "Amendments to credits",
+  "resource:resources": []
 }

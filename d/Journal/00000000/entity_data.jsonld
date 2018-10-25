@@ -1,17 +1,23 @@
 {
-  "@id": "./",
-  "rdfs:label": "Project copyright notice.  Copyright (c) 2015 Iris Garrelfs",
-  "rdfs:comment": "Copyright (c) 2015 Iris Garrelfs\r\n",
-  "coll:resources": [],
-  "annal:type_id": "Journal",
-  "coll:audio_clips": [],
-  "coll:images": [],
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Journal/00000000",
   "@type": [
-    "coll:Journal",
+    "journal:Journal",
     "annal:EntityData"
   ],
   "annal:id": "00000000",
-  "coll:date__2": "",
-  "coll:date": "2015-08-06",
-  "annal:type": "annal:EntityData"
+  "annal:type": "journal:Journal",
+  "annal:type_id": "Journal",
+  "journal:date": "2015-08-06",
+  "journal:location": "",
+  "rdfs:comment": "Copyright (c) 2015 Iris Garrelfs\r\n",
+  "rdfs:label": "Project copyright notice.  Copyright (c) 2015 Iris Garrelfs",
+  "resource:resources": [],
+  "resource:uploaded_audio_r": [],
+  "resource:uploaded_image_r": []
 }

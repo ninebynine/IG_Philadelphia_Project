@@ -1,13 +1,19 @@
 {
-  "rdfs:label": "First draft of film without audio",
-  "rdfs:comment": "This is the first draft of the film, with images and transitions roughly in place, although there is no audio as yet.",
-  "coll:web_resource": "http://youtu.be/V9P_mkZN9Yc",
-  "annal:type_id": "Web_resource",
-  "annal:id": "Smoke_draft1",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Web_resource/Smoke_draft1",
   "@type": [
-    "coll:Web_resource",
+    "resource:Web_resource",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Smoke_draft1",
+  "annal:type": "resource:Web_resource",
+  "annal:type_id": "Web_resource",
+  "rdfs:comment": "This is the first draft of the film, with images and transitions roughly in place, although there is no audio as yet.",
+  "rdfs:label": "First draft of film without audio",
+  "resource:web_resource": "http://youtu.be/V9P_mkZN9Yc"
 }

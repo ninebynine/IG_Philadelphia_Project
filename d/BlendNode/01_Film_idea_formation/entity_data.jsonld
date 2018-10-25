@@ -1,8 +1,25 @@
 {
-  "rdfs:label": "Formation of idea to make film",
-  "rdfs:comment": "",
-  "coll:resources": [],
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "BlendNode/01_Film_idea_formation",
+  "@type": [
+    "pb:BlendNode",
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:id": "01_Film_idea_formation",
+  "annal:type": "pb:BlendNode",
   "annal:type_id": "BlendNode",
+  "journal:refs": [
+    {
+      "annal:member": "Journal/00000001"
+    }
+  ],
   "pb:generated": [],
   "pb:used": [
     {
@@ -12,18 +29,7 @@
       "annal:member": "BlendInput/00_Past_practice"
     }
   ],
-  "annal:type": "annal:EntityData",
-  "annal:id": "01_Film_idea_formation",
-  "@id": "./",
-  "@type": [
-    "pb:BlendNode",
-    "pb:BlendInput",
-    "pb:ProceduralNode",
-    "annal:EntityData"
-  ],
-  "annal:member": [
-    {
-      "annal:member": "Journal/00000001"
-    }
-  ]
+  "rdfs:comment": "",
+  "rdfs:label": "Formation of idea to make film",
+  "resource:resources": []
 }

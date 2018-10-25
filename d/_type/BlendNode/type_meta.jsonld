@@ -1,0 +1,29 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/BlendNode",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "BlendNode",
+  "annal:supertype_uri": [
+    {
+      "@id": "pb:BlendInput"
+    },
+    {
+      "@id": "pb:ProceduralNode"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/BlendNodes",
+  "annal:type_view": "_view/BlendNode",
+  "annal:uri": "pb:BlendNode",
+  "rdfs:comment": "Procedural blend node",
+  "rdfs:label": "Blend node"
+}

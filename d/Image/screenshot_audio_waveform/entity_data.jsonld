@@ -1,19 +1,25 @@
 {
-  "rdfs:label": "Audacity screenshot",
-  "rdfs:comment": "A screenshot showing the waveform editor compiling the first full audio for the film. ",
-  "annal:type_id": "Image",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Image/screenshot_audio_waveform",
   "@type": [
-    "coll:Image",
+    "annal:Image",
     "annal:EntityData"
   ],
   "annal:id": "screenshot_audio_waveform",
-  "@id": "./",
-  "coll:image": {
-    "upload_name": "Uploaded_image",
+  "annal:type": "annal:Image",
+  "annal:type_id": "Image",
+  "rdfs:comment": "A screenshot showing the waveform editor compiling the first full audio for the film. ",
+  "rdfs:label": "Audacity screenshot",
+  "resource:uploaded_image": {
     "resource_name": "Uploaded_image.png",
-    "uploaded_size": 253560,
+    "resource_type": "image/png",
+    "upload_name": "Uploaded_image",
     "uploaded_file": "Screenshot 2015-08-27 11.26.14.png",
-    "resource_type": "image/png"
-  },
-  "annal:type": "annal:EntityData"
+    "uploaded_size": 253560
+  }
 }

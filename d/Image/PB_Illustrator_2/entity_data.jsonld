@@ -1,19 +1,25 @@
 {
-  "rdfs:label": "PB blend diagram draft 2",
-  "rdfs:comment": "This is a next stage PB blend diagram draft with all 3 blend fields in place. Contains a hypothetical Log Entry 17. Still needs work...",
-  "annal:type_id": "Image",
-  "coll:image": {
-    "upload_name": "Uploaded_image",
-    "uploaded_size": 486129,
-    "resource_name": "Uploaded_image.png",
-    "uploaded_file": "Smoke-PBdraft-Illus2.pdf",
-    "resource_type": "application/pdf"
-  },
-  "annal:id": "PB_Illustrator_2",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Image/PB_Illustrator_2",
   "@type": [
-    "coll:Image",
+    "annal:Image",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "PB_Illustrator_2",
+  "annal:type": "annal:Image",
+  "annal:type_id": "Image",
+  "rdfs:comment": "This is a next stage PB blend diagram draft with all 3 blend fields in place. Contains a hypothetical Log Entry 17. Still needs work...",
+  "rdfs:label": "PB blend diagram draft 2",
+  "resource:uploaded_image": {
+    "resource_name": "Uploaded_image.png",
+    "resource_type": "application/pdf",
+    "upload_name": "Uploaded_image",
+    "uploaded_file": "Smoke-PBdraft-Illus2.pdf",
+    "uploaded_size": 486129
+  }
 }

@@ -1,19 +1,25 @@
 {
-  "rdfs:label": "Lyrics to \"A Foggy Day\"",
-  "rdfs:comment": "The lyrics to \"A Foggy Day\".",
-  "annal:type_id": "Image",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Image/FoggyDay_lyrics",
   "@type": [
-    "coll:Image",
+    "annal:Image",
     "annal:EntityData"
   ],
   "annal:id": "FoggyDay_lyrics",
-  "@id": "./",
-  "coll:image": {
-    "upload_name": "Uploaded_image",
+  "annal:type": "annal:Image",
+  "annal:type_id": "Image",
+  "rdfs:comment": "The lyrics to \"A Foggy Day\".",
+  "rdfs:label": "Lyrics to \"A Foggy Day\"",
+  "resource:uploaded_image": {
     "resource_name": "Uploaded_image.png",
-    "uploaded_size": 17618,
+    "resource_type": "application/pdf",
+    "upload_name": "Uploaded_image",
     "uploaded_file": "FoggyDay_Lyrics.pdf",
-    "resource_type": "application/pdf"
-  },
-  "annal:type": "annal:EntityData"
+    "uploaded_size": 17618
+  }
 }

@@ -1,30 +1,36 @@
 {
-  "@id": "./",
-  "rdfs:label": "Music idea: \"A foggy day\"",
-  "rdfs:comment": "Alternative music idea to be considered if London pics are used",
-  "coll:resources": [
+  "@context": [
     {
-      "coll:web_resource_m": "Web_resource/FoggyDay_EllaFitzgerald_YouTube"
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "ProceduralNode/02_Music_idea_london",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:id": "02_Music_idea_london",
+  "annal:type": "pb:ProceduralNode",
+  "annal:type_id": "ProceduralNode",
+  "journal:refs": [
+    {
+      "annal:member": "Journal/00000002"
     }
   ],
-  "annal:type_id": "ProceduralNode",
   "pb:generated": [],
   "pb:used": [
     {
       "annal:member": "ProceduralNode/02_Music_idea"
     }
   ],
-  "annal:member": [
-    {
-      "annal:member": "Journal/00000002"
-    }
-  ],
-  "annal:id": "02_Music_idea_london",
   "pb:wasGeneratedBy": "BlendNode/Smoke_film_decision",
-  "@type": [
-    "pb:ProceduralNode",
-    "pb:BlendInput",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Alternative music idea to be considered if London pics are used",
+  "rdfs:label": "Music idea: \"A foggy day\"",
+  "resource:resources": [
+    {
+      "resource:web_resource_m": "Web_resource/FoggyDay_EllaFitzgerald_YouTube"
+    }
+  ]
 }

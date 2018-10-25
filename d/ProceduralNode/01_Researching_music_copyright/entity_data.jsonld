@@ -1,29 +1,35 @@
 {
-  "rdfs:label": "Research music copyright",
-  "rdfs:comment": "Research copyright of classic \"Smoke gets in your eyes\" song",
-  "coll:resources": [
+  "@context": [
     {
-      "coll:web_resource_m": "Web_resource/youtube_sarah_vaughan_smoke"
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "ProceduralNode/01_Researching_music_copyright",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:id": "01_Researching_music_copyright",
+  "annal:type": "pb:ProceduralNode",
+  "annal:type_id": "ProceduralNode",
+  "journal:refs": [
+    {
+      "annal:member": "Journal/00000001"
     }
   ],
-  "annal:type_id": "ProceduralNode",
   "pb:generated": [],
   "pb:used": [
     {
       "annal:member": "ProceduralNode/02_Music_idea"
     }
   ],
-  "annal:member": [
+  "rdfs:comment": "Research copyright of classic \"Smoke gets in your eyes\" song",
+  "rdfs:label": "Research music copyright",
+  "resource:resources": [
     {
-      "annal:member": "Journal/00000001"
+      "resource:web_resource_m": "Web_resource/youtube_sarah_vaughan_smoke"
     }
-  ],
-  "annal:id": "01_Researching_music_copyright",
-  "@id": "./",
-  "@type": [
-    "pb:ProceduralNode",
-    "pb:BlendInput",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  ]
 }

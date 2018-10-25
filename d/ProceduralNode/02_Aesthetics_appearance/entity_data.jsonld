@@ -1,8 +1,24 @@
 {
-  "rdfs:label": "Aesthetics (appearance)",
-  "rdfs:comment": "Thoughts about the visual aesthetics of the film to be produced",
-  "coll:resources": [],
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "ProceduralNode/02_Aesthetics_appearance",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:id": "02_Aesthetics_appearance",
+  "annal:type": "pb:ProceduralNode",
   "annal:type_id": "ProceduralNode",
+  "journal:refs": [
+    {
+      "annal:member": "Journal/00000002"
+    }
+  ],
   "pb:generated": [],
   "pb:used": [
     {
@@ -13,17 +29,7 @@
     }
   ],
   "pb:wasGeneratedBy": "BlendNode/Smoke_film_decision",
-  "annal:type": "annal:EntityData",
-  "annal:id": "02_Aesthetics_appearance",
-  "@id": "./",
-  "@type": [
-    "pb:ProceduralNode",
-    "pb:BlendInput",
-    "annal:EntityData"
-  ],
-  "annal:member": [
-    {
-      "annal:member": "Journal/00000002"
-    }
-  ]
+  "rdfs:comment": "Thoughts about the visual aesthetics of the film to be produced",
+  "rdfs:label": "Aesthetics (appearance)",
+  "resource:resources": []
 }

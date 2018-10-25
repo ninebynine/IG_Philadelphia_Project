@@ -1,19 +1,25 @@
 {
-  "rdfs:label": "A stamped image",
-  "rdfs:comment": "This is a stamped images from somewhere down the sequence.",
-  "annal:type_id": "Image",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Image/London_1_crop_ed1",
   "@type": [
-    "coll:Image",
+    "annal:Image",
     "annal:EntityData"
   ],
   "annal:id": "London_1_crop_ed1",
-  "@id": "./",
-  "coll:image": {
-    "upload_name": "Uploaded_image",
+  "annal:type": "annal:Image",
+  "annal:type_id": "Image",
+  "rdfs:comment": "This is a stamped images from somewhere down the sequence.",
+  "rdfs:label": "A stamped image",
+  "resource:uploaded_image": {
     "resource_name": "Uploaded_image.jpg",
-    "uploaded_size": 54609,
+    "resource_type": "image/jpeg",
+    "upload_name": "Uploaded_image",
     "uploaded_file": "London17.jpg",
-    "resource_type": "image/jpeg"
-  },
-  "annal:type": "annal:EntityData"
+    "uploaded_size": 54609
+  }
 }

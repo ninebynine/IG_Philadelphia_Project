@@ -1,18 +1,24 @@
 {
-  "rdfs:label": "JISC RDS-CREAM project",
-  "rdfs:comment": "",
-  "coll:resources": [
+  "@context": [
     {
-      "coll:web_resource_m": "Web_resource/CREAM_website"
-    }
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
   ],
-  "annal:type_id": "BlendInput",
-  "annal:member": [],
-  "annal:id": "01_CREAM_project",
-  "@id": "./",
+  "@id": "BlendInput/01_CREAM_project",
   "@type": [
     "pb:BlendInput",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "01_CREAM_project",
+  "annal:type": "pb:BlendInput",
+  "annal:type_id": "BlendInput",
+  "journal:refs": [],
+  "rdfs:comment": "",
+  "rdfs:label": "JISC RDS-CREAM project",
+  "resource:resources": [
+    {
+      "resource:web_resource_m": "Web_resource/CREAM_website"
+    }
+  ]
 }

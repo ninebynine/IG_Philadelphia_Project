@@ -1,107 +1,354 @@
 {
   "@context": {
-    "@base": ".",
-    "resource_name": "annal:resource_name",
-    "resource_type": "annal:resource_type",
-    "upload_name": "annal:upload_name",
-    "uploaded_size": "annal:uploaded_size",
-    "uploaded_file": "annal:uploaded_file",
+    "_base_": "annalist_site:/c/IG_Philadelphia_Project/d/",
+    "_coll_": "annalist_site:/c/IG_Philadelphia_Project/",
+    "_site_": "annalist_site:/",
+    "annal": "http://purl.org/annalist/2014/#",
+    "annal:alias_source": {
+      "@type": "@id",
+      "fid": "Type_aliases",
+      "subfid": "Type_alias_source"
+    },
+    "annal:alias_target": {
+      "@type": "@id",
+      "fid": "Type_aliases",
+      "subfid": "Type_alias_target"
+    },
+    "annal:default_list": {
+      "fid": "Coll_default_list_id",
+      "vid": "Collection_view"
+    },
+    "annal:default_type": {
+      "@type": "@id",
+      "fid": "List_default_type",
+      "vid": "List_view"
+    },
+    "annal:default_value": {
+      "fid": "Field_default",
+      "vid": "Field_view"
+    },
+    "annal:default_view": {
+      "@type": "@id",
+      "fid": "List_default_view",
+      "vid": "List_view"
+    },
+    "annal:default_view_entity": {
+      "fid": "Coll_default_view_entity",
+      "vid": "Collection_view"
+    },
+    "annal:default_view_id": {
+      "fid": "Coll_default_view_id",
+      "vid": "Collection_view"
+    },
+    "annal:default_view_type": {
+      "fid": "Coll_default_view_type",
+      "vid": "Collection_view"
+    },
+    "annal:display_type": {
+      "@type": "@id",
+      "fid": "List_type",
+      "vid": "List_view"
+    },
+    "annal:entity_list": {
+      "@container": "@list"
+    },
+    "annal:field_aliases": {
+      "@container": "@list",
+      "fid": "Type_aliases",
+      "vid": "Type_view"
+    },
+    "annal:field_entity_type": {
+      "@type": "@id",
+      "fid": "Field_entity_type",
+      "vid": "Field_view"
+    },
+    "annal:field_fields": {
+      "@container": "@list",
+      "fid": "Field_fields",
+      "vid": "Field_view"
+    },
+    "annal:field_id": {
+      "@type": "@id",
+      "fid": "Group_fields",
+      "subfid": "Group_field_sel"
+    },
+    "annal:field_placement": {
+      "fid": "Group_fields",
+      "subfid": "Group_field_placement"
+    },
+    "annal:field_ref_field": {
+      "@type": "@id",
+      "fid": "Field_fieldref",
+      "vid": "Field_view"
+    },
+    "annal:field_ref_restriction": {
+      "fid": "Field_restrict",
+      "vid": "Field_view"
+    },
+    "annal:field_ref_type": {
+      "@type": "@id",
+      "fid": "Field_typeref",
+      "vid": "Field_view"
+    },
+    "annal:field_render_type": {
+      "@type": "@id",
+      "fid": "Field_render_type",
+      "vid": "Field_view"
+    },
+    "annal:field_value_mode": {
+      "@type": "@id",
+      "fid": "Field_value_mode",
+      "vid": "Field_view"
+    },
+    "annal:field_value_type": {
+      "@type": "@id",
+      "fid": "Field_value_type",
+      "vid": "Field_view"
+    },
+    "annal:group_entity_type": {
+      "@type": "@id",
+      "fid": "Group_entity_type",
+      "vid": "Field_group_view"
+    },
+    "annal:group_fields": {
+      "@container": "@list",
+      "fid": "Group_fields",
+      "vid": "Field_group_view"
+    },
+    "annal:id": {
+      "fid": "Concept_id",
+      "vid": "Concept"
+    },
+    "annal:inherit_from": {
+      "@type": "@id",
+      "fid": "Coll_parent",
+      "vid": "Collection_view"
+    },
+    "annal:list_entity_selector": {
+      "fid": "List_entity_selector",
+      "vid": "List_view"
+    },
+    "annal:list_entity_type": {
+      "@type": "@id",
+      "fid": "List_entity_type",
+      "vid": "List_view"
+    },
+    "annal:list_fields": {
+      "@container": "@list",
+      "fid": "List_fields",
+      "vid": "List_view"
+    },
+    "annal:member": {
+      "@type": "@id",
+      "fid": "Journal_refs",
+      "subfid": "Journal_ref"
+    },
+    "annal:meta_comment": {
+      "fid": "Coll_comment",
+      "vid": "Collection_view"
+    },
+    "annal:open_view": {
+      "fid": "View_edit_view",
+      "vid": "View_view"
+    },
+    "annal:placeholder": {
+      "fid": "Field_placeholder",
+      "vid": "Field_view"
+    },
+    "annal:property_uri": {
+      "@type": "@id",
+      "fid": "Group_fields",
+      "subfid": "Group_field_property"
+    },
+    "annal:repeat_label_add": {
+      "fid": "Field_repeat_label_add",
+      "vid": "Field_view"
+    },
+    "annal:repeat_label_delete": {
+      "fid": "Field_repeat_label_delete",
+      "vid": "Field_view"
+    },
+    "annal:software_version": {
+      "fid": "Coll_software_version",
+      "vid": "Collection_view"
+    },
+    "annal:superproperty_uri": {
+      "@container": "@set",
+      "@type": "@id",
+      "fid": "Field_superproperty_uris",
+      "vid": "Field_view"
+    },
+    "annal:supertype_uri": {
+      "@container": "@set",
+      "@type": "@id",
+      "fid": "Type_supertype_uris",
+      "vid": "Type_view"
+    },
+    "annal:tooltip": {
+      "fid": "Field_tooltip",
+      "vid": "Field_view"
+    },
+    "annal:type": {
+      "@type": "@id"
+    },
+    "annal:type_id": {
+      "fid": "Entity_type",
+      "vid": "Concept"
+    },
+    "annal:type_list": {
+      "@type": "@id",
+      "fid": "Type_list",
+      "vid": "Type_view"
+    },
+    "annal:type_view": {
+      "@type": "@id",
+      "fid": "Type_view",
+      "vid": "Type_view"
+    },
+    "annal:uri": {
+      "@type": "@id",
+      "fid": "Concept_uri",
+      "vid": "Concept"
+    },
+    "annal:user_permission": {
+      "@container": "@set",
+      "fid": "User_permissions",
+      "vid": "User_view"
+    },
+    "annal:user_uri": {
+      "@type": "@id",
+      "fid": "User_uri",
+      "vid": "User_view"
+    },
+    "annal:view_entity_type": {
+      "@type": "@id",
+      "fid": "View_entity_type",
+      "vid": "View_view"
+    },
+    "annal:view_fields": {
+      "@container": "@list",
+      "fid": "View_fields",
+      "vid": "View_view"
+    },
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
     "import_name": "annal:import_name",
     "import_url": {
       "@id": "annal:import_url",
       "@type": "@id"
     },
-    "annal": "http://purl.org/annalist/#",
+    "journal": "http://id.annalist.net/journal/",
+    "journal:date": {
+      "fid": "Date",
+      "vid": "Journal_entry"
+    },
+    "journal:location": {
+      "fid": "Location",
+      "vid": "Journal_entry"
+    },
+    "journal:refs": {
+      "@container": "@list",
+      "fid": "Journal_refs",
+      "vid": "BlendInput"
+    },
     "owl": "http://www.w3.org/2002/07/owl#",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "annal:type_id": {
-      "@type": "@id"
+    "rdfs:comment": {
+      "fid": "Entity_comment",
+      "vid": "Journal_note_view"
     },
-    "annal:record_type": {
-      "@type": "@id"
-    },
-    "annal:group_fields": {
-      "@container": "@list"
-    },
-    "annal:field_value_type": {
-      "@type": "@id"
-    },
-    "annal:property_uri": {
-      "@type": "@id"
-    },
-    "annal:field_render_type": {
-      "@type": "@id"
-    },
-    "annal:field_value_mode": {
-      "@type": "@id"
-    },
-    "annal:field_ref_type": {
-      "@type": "@id"
-    },
-    "annal:field_ref_field": {
-      "@type": "@id"
-    },
-    "annal:group_ref": {
-      "@type": "@id"
-    },
-    "annal:field_entity_type": {
-      "@type": "@id"
-    },
-    "annal:display_type": {
-      "@type": "@id"
-    },
-    "annal:default_type": {
-      "@type": "@id"
-    },
-    "annal:default_view": {
-      "@type": "@id"
-    },
-    "annal:list_fields": {
-      "@container": "@list"
-    },
-    "annal:uri": {
-      "@type": "@id"
-    },
-    "annal:supertype_uris": {
-      "@container": "@list"
-    },
-    "annal:type_view": {
-      "@type": "@id"
-    },
-    "annal:type_list": {
-      "@type": "@id"
-    },
-    "annal:field_aliases": {
-      "@container": "@list"
-    },
-    "annal:user_permissions": {
-      "@container": "@set"
-    },
-    "annal:view_fields": {
-      "@container": "@list"
+    "rdfs:label": {
+      "fid": "Entity_label",
+      "vid": "Journal_note_view"
     },
     "rdfs:seeAlso": {
-      "@container": "@list"
+      "@container": "@set",
+      "@type": "@id",
+      "fid": "Entity_see_also_r",
+      "vid": "Concept"
     },
-    "annal:member": {
-      "@container": "@list"
+    "resource": "http://id.annalist.net/resource/",
+    "resource:imported_audio": {
+      "fid": "Imported_audio",
+      "vid": "Imported_audio"
     },
-    "owl:sameAs": {
-      "@type": "@id"
+    "resource:imported_image": {
+      "fid": "Imported_image",
+      "vid": "Imported_image"
     },
-    "annal:field_id": {
-      "@type": "@id"
+    "resource:linked_audio": {
+      "@type": "@id",
+      "fid": "Linked_audio",
+      "vid": "Linked_audio"
     },
-    "annal:alias_target": {
-      "@type": "@id"
+    "resource:linked_image": {
+      "@type": "@id",
+      "fid": "Linked_image",
+      "vid": "Linked_image"
     },
-    "annal:alias_source": {
-      "@type": "@id"
+    "resource:resources": {
+      "@container": "@list",
+      "fid": "Web_resource_r",
+      "vid": "BlendInput"
     },
-    "annal:supertype_uri": {
-      "@type": "@id"
-    }
-  }
+    "resource:uploaded_audio": {
+      "fid": "Uploaded_audio",
+      "vid": "Uploaded_audio"
+    },
+    "resource:uploaded_audio_m": {
+      "@type": "@id",
+      "fid": "Uploaded_audio_r",
+      "subfid": "Uploaded_audio_m"
+    },
+    "resource:uploaded_audio_r": {
+      "@container": "@list",
+      "fid": "Uploaded_audio_r",
+      "vid": "Journal_entry"
+    },
+    "resource:uploaded_image": {
+      "fid": "Uploaded_image",
+      "vid": "Uploaded_image"
+    },
+    "resource:uploaded_image_m": {
+      "@type": "@id",
+      "fid": "Uploaded_image_r",
+      "subfid": "Uploaded_image_m"
+    },
+    "resource:uploaded_image_r": {
+      "@container": "@list",
+      "fid": "Uploaded_image_r",
+      "vid": "Journal_entry"
+    },
+    "resource:web_resource": {
+      "@type": "@id",
+      "fid": "Web_resource",
+      "vid": "Web_resource"
+    },
+    "resource:web_resource_m": {
+      "@type": "@id",
+      "fid": "Web_resource_r",
+      "subfid": "Web_resource_m"
+    },
+    "resource_name": "annal:resource_name",
+    "resource_type": "annal:resource_type",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "skos:broader": {
+      "@container": "@set",
+      "@type": "@id",
+      "fid": "Broader_concept_r",
+      "vid": "Concept"
+    },
+    "skos:related": {
+      "@container": "@set",
+      "@type": "@id",
+      "fid": "Related_concept_r",
+      "vid": "Concept"
+    },
+    "upload_name": "annal:upload_name",
+    "uploaded_file": "annal:uploaded_file",
+    "uploaded_size": "annal:uploaded_size",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "_comment": "Generated by generate_coll_jsonld_context on 2018-03-30 14:56:53"
 }

@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/Journal_entries",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "Journal",
+  "annal:default_view": "Default_view",
+  "annal:display_type": "_enum_list_type/List",
+  "annal:id": "Journal_entries",
+  "annal:list_entity_selector": "\"journal:Journal\" in [@type]",
+  "annal:list_entity_type": "journal:Journal",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "Entity_label",
+      "annal:field_placement": "small:3,9"
+    }
+  ],
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "rdfs:comment": "List of journal entries",
+  "rdfs:label": "List of journal entries"
+}

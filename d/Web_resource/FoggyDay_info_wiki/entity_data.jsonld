@@ -1,13 +1,19 @@
 {
-  "rdfs:label": "information on \"A Foggy Day\"",
-  "rdfs:comment": "\"A Foggy Day\" is a song composed by George Gershwin, with lyrics by Ira Gershwin, introduced by Fred Astaire in the 1937 film A Damsel in Distress. It was originally titled \"A Foggy Day (In London Town)\", and is often still referred to as such.",
-  "coll:web_resource": "https://en.wikipedia.org/wiki/A_Foggy_Day",
-  "annal:type_id": "Web_resource",
-  "annal:id": "FoggyDay_info_wiki",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Web_resource/FoggyDay_info_wiki",
   "@type": [
-    "coll:Web_resource",
+    "resource:Web_resource",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "FoggyDay_info_wiki",
+  "annal:type": "resource:Web_resource",
+  "annal:type_id": "Web_resource",
+  "rdfs:comment": "\"A Foggy Day\" is a song composed by George Gershwin, with lyrics by Ira Gershwin, introduced by Fred Astaire in the 1937 film A Damsel in Distress. It was originally titled \"A Foggy Day (In London Town)\", and is often still referred to as such.",
+  "rdfs:label": "information on \"A Foggy Day\"",
+  "resource:web_resource": "https://en.wikipedia.org/wiki/A_Foggy_Day"
 }

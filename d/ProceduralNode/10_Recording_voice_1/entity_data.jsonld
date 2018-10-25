@@ -1,8 +1,20 @@
 {
-  "rdfs:label": "Voice recording 1",
-  "rdfs:comment": "Voice recording 1",
-  "coll:resources": [],
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "ProceduralNode/10_Recording_voice_1",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:id": "10_Recording_voice_1",
+  "annal:type": "pb:ProceduralNode",
   "annal:type_id": "ProceduralNode",
+  "journal:refs": [],
   "pb:generated": [],
   "pb:used": [
     {
@@ -12,13 +24,7 @@
       "annal:member": "ProceduralNode/08_Decision_drop_song"
     }
   ],
-  "annal:type": "annal:EntityData",
-  "annal:id": "10_Recording_voice_1",
-  "@id": "./",
-  "@type": [
-    "pb:ProceduralNode",
-    "pb:BlendInput",
-    "annal:EntityData"
-  ],
-  "annal:member": []
+  "rdfs:comment": "Voice recording 1",
+  "rdfs:label": "Voice recording 1",
+  "resource:resources": []
 }

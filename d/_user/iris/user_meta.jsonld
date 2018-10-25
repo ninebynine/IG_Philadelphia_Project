@@ -1,0 +1,26 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_user/iris",
+  "@type": [
+    "annal:User"
+  ],
+  "annal:id": "iris",
+  "annal:type": "annal:User",
+  "annal:type_id": "_user",
+  "annal:user_permission": [
+    "VIEW",
+    "CREATE",
+    "UPDATE",
+    "DELETE",
+    "CONFIG",
+    "ADMIN"
+  ],
+  "annal:user_uri": "mailto:iris@irisgarrelfs.com",
+  "rdfs:comment": "User iris: permissions for Iris in collection procedural_blending_ig1",
+  "rdfs:label": "Iris Garrelfs"
+}

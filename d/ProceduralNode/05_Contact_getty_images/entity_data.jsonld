@@ -1,25 +1,31 @@
 {
-  "rdfs:label": "Contact Getty Images re London",
-  "rdfs:comment": "Contact Getty Images re London fog images",
-  "coll:resources": [],
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "ProceduralNode/05_Contact_getty_images",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:id": "05_Contact_getty_images",
+  "annal:type": "pb:ProceduralNode",
   "annal:type_id": "ProceduralNode",
+  "journal:refs": [
+    {
+      "annal:member": "Journal/00000005"
+    }
+  ],
   "pb:generated": [],
   "pb:used": [
     {
       "annal:member": "ProceduralNode/02_Researching_image_copyright"
     }
   ],
-  "annal:type": "annal:EntityData",
-  "annal:id": "05_Contact_getty_images",
-  "@id": "./",
-  "@type": [
-    "pb:ProceduralNode",
-    "pb:BlendInput",
-    "annal:EntityData"
-  ],
-  "annal:member": [
-    {
-      "annal:member": "Journal/00000005"
-    }
-  ]
+  "rdfs:comment": "Contact Getty Images re London fog images",
+  "rdfs:label": "Contact Getty Images re London",
+  "resource:resources": []
 }

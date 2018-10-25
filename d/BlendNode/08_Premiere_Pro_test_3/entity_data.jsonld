@@ -1,8 +1,21 @@
 {
-  "rdfs:label": "Premiere Pro: transitions test 3",
-  "rdfs:comment": "",
-  "coll:resources": [],
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "BlendNode/08_Premiere_Pro_test_3",
+  "@type": [
+    "pb:BlendNode",
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:id": "08_Premiere_Pro_test_3",
+  "annal:type": "pb:BlendNode",
   "annal:type_id": "BlendNode",
+  "journal:refs": [],
   "pb:generated": [],
   "pb:used": [
     {
@@ -12,14 +25,7 @@
       "annal:member": "ProceduralNode/08_Premiere_Pro_tutorials"
     }
   ],
-  "annal:type": "annal:EntityData",
-  "annal:id": "08_Premiere_Pro_test_3",
-  "@id": "./",
-  "@type": [
-    "pb:BlendNode",
-    "pb:BlendInput",
-    "pb:ProceduralNode",
-    "annal:EntityData"
-  ],
-  "annal:member": []
+  "rdfs:comment": "",
+  "rdfs:label": "Premiere Pro: transitions test 3",
+  "resource:resources": []
 }

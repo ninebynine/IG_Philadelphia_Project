@@ -1,8 +1,25 @@
 {
-  "rdfs:label": "Premiere Pro first full draft",
-  "rdfs:comment": "Premiere Pro first full draft",
-  "coll:resources": [],
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "BlendNode/12_Premiere_Pro_first_full_draft",
+  "@type": [
+    "pb:BlendNode",
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:id": "12_Premiere_Pro_first_full_draft",
+  "annal:type": "pb:BlendNode",
   "annal:type_id": "BlendNode",
+  "journal:refs": [
+    {
+      "annal:member": "Journal/00000012"
+    }
+  ],
   "pb:generated": [],
   "pb:used": [
     {
@@ -12,18 +29,7 @@
       "annal:member": "BlendNode/12_Sound_edit_2"
     }
   ],
-  "annal:member": [
-    {
-      "annal:member": "Journal/00000012"
-    }
-  ],
-  "annal:id": "12_Premiere_Pro_first_full_draft",
-  "@id": "./",
-  "@type": [
-    "pb:BlendNode",
-    "pb:BlendInput",
-    "pb:ProceduralNode",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Premiere Pro first full draft",
+  "rdfs:label": "Premiere Pro first full draft",
+  "resource:resources": []
 }

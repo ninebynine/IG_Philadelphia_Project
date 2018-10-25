@@ -1,13 +1,19 @@
 {
-  "rdfs:label": "Ella Fitzgerald - A Foggy Day in London Town (YouTube)",
-  "rdfs:comment": "Ella Fitzgerald and Louis Armstrong performing  A Foggy Day in London Town.",
-  "coll:web_resource": "https://www.youtube.com/watch?v=Jg66AV7T2So",
-  "annal:type_id": "Web_resource",
-  "annal:id": "FoggyDay_EllaFitzgerald_YouTube",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Web_resource/FoggyDay_EllaFitzgerald_YouTube",
   "@type": [
-    "coll:Web_resource",
+    "resource:Web_resource",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "FoggyDay_EllaFitzgerald_YouTube",
+  "annal:type": "resource:Web_resource",
+  "annal:type_id": "Web_resource",
+  "rdfs:comment": "Ella Fitzgerald and Louis Armstrong performing  A Foggy Day in London Town.",
+  "rdfs:label": "Ella Fitzgerald - A Foggy Day in London Town (YouTube)",
+  "resource:web_resource": "https://www.youtube.com/watch?v=Jg66AV7T2So"
 }

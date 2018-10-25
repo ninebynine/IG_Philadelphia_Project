@@ -1,13 +1,19 @@
 {
-  "rdfs:label": "Smoke Film",
-  "rdfs:comment": "A link to the final version on YouTune",
-  "coll:web_resource": "http://youtu.be/6EjyWGDAbYs",
-  "annal:type_id": "Web_resource",
-  "annal:id": "Smoke_Film",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Web_resource/Smoke_Film",
   "@type": [
-    "coll:Web_resource",
+    "resource:Web_resource",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Smoke_Film",
+  "annal:type": "resource:Web_resource",
+  "annal:type_id": "Web_resource",
+  "rdfs:comment": "A link to the final version on YouTune",
+  "rdfs:label": "Smoke Film",
+  "resource:web_resource": "http://youtu.be/6EjyWGDAbYs"
 }

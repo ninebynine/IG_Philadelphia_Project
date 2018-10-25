@@ -1,13 +1,19 @@
 {
-  "rdfs:label": "List of songs in public domain",
-  "rdfs:comment": "A link to a website giving alphabetically sorted lists of songs in the public domain. Also has some lists sorted by genre.",
-  "coll:web_resource": "http://www.pdinfo.com/public-domain-music-list.php",
-  "annal:type_id": "Web_resource",
-  "annal:id": "US_PublicDomain_songs",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Web_resource/US_PublicDomain_songs",
   "@type": [
-    "coll:Web_resource",
+    "resource:Web_resource",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "US_PublicDomain_songs",
+  "annal:type": "resource:Web_resource",
+  "annal:type_id": "Web_resource",
+  "rdfs:comment": "A link to a website giving alphabetically sorted lists of songs in the public domain. Also has some lists sorted by genre.",
+  "rdfs:label": "List of songs in public domain",
+  "resource:web_resource": "http://www.pdinfo.com/public-domain-music-list.php"
 }

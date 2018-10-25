@@ -1,13 +1,19 @@
 {
-  "rdfs:label": "PRS info on Music copyright",
-  "rdfs:comment": "This page contains general information about Music copyright, compiled by the PRS. An extract: \r\n\r\nIn the UK, copyright generally lasts for a period of 70 years from the end of the calendar year in which the author dies. If the music originates from outside the European Economic Area (EEA), the copyright lasts for as long as the music is protected by copyright in its country of origin, provided that the length of time does not exceed 70 years.",
-  "coll:web_resource": "http://www.prsformusic.com/aboutus/ourorganisation/aboutcopyright/pages/default.aspx",
-  "annal:type_id": "Web_resource",
-  "annal:id": "PRS_copyright_info",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Web_resource/PRS_copyright_info",
   "@type": [
-    "coll:Web_resource",
+    "resource:Web_resource",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "PRS_copyright_info",
+  "annal:type": "resource:Web_resource",
+  "annal:type_id": "Web_resource",
+  "rdfs:comment": "This page contains general information about Music copyright, compiled by the PRS. An extract: \r\n\r\nIn the UK, copyright generally lasts for a period of 70 years from the end of the calendar year in which the author dies. If the music originates from outside the European Economic Area (EEA), the copyright lasts for as long as the music is protected by copyright in its country of origin, provided that the length of time does not exceed 70 years.",
+  "rdfs:label": "PRS info on Music copyright",
+  "resource:web_resource": "http://www.prsformusic.com/aboutus/ourorganisation/aboutcopyright/pages/default.aspx"
 }

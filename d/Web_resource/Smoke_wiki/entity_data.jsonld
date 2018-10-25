@@ -1,13 +1,19 @@
 {
-  "rdfs:label": "Information about \"Smoke gets in your eyes\"",
-  "rdfs:comment": "Information about the song \"Smoke gets in your eyes from wikipedia.",
-  "coll:web_resource": "https://en.wikipedia.org/wiki/Smoke_Gets_in_Your_Eyes",
-  "annal:type_id": "Web_resource",
-  "annal:id": "Smoke_wiki",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Web_resource/Smoke_wiki",
   "@type": [
-    "coll:Web_resource",
+    "resource:Web_resource",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Smoke_wiki",
+  "annal:type": "resource:Web_resource",
+  "annal:type_id": "Web_resource",
+  "rdfs:comment": "Information about the song \"Smoke gets in your eyes from wikipedia.",
+  "rdfs:label": "Information about \"Smoke gets in your eyes\"",
+  "resource:web_resource": "https://en.wikipedia.org/wiki/Smoke_Gets_in_Your_Eyes"
 }

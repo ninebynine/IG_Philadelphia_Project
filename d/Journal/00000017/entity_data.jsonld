@@ -1,24 +1,27 @@
 {
-  "rdfs:label": "Log Entry 17 - \"Smoke\" final version",
-  "rdfs:comment": "Today I have been finalising the film by smoothing some of the transitions and changing some titles. The result is [here](http://youtu.be/6EjyWGDAbYs)\r\n\r\nI also amended the PB diagram, responding to feedback. The main consideration is making it into ....",
-  "coll:resources": [
-    {
-      "coll:web_resource_m": "Web_resource/Smoke_Film"
-    }
-  ],
-  "annal:type_id": "Journal",
-  "coll:audio_clips": [],
-  "coll:images": [],
-  "coll:date__2": "studio",
-  "@type": [
-    "coll:Journal",
-    "annal:EntityData"
-  ],
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
+  "@id": "Journal/00000017",
+  "@type": [
+    "journal:Journal",
+    "annal:EntityData"
+  ],
   "annal:id": "00000017",
-  "@id": "./",
-  "coll:date": "2015-08-31",
-  "annal:type": "coll:Journal"
+  "annal:type": "journal:Journal",
+  "annal:type_id": "Journal",
+  "journal:date": "2015-08-31",
+  "journal:location": "studio",
+  "rdfs:comment": "Today I have been finalising the film by smoothing some of the transitions and changing some titles. The result is [here](http://youtu.be/6EjyWGDAbYs)\r\n\r\nI also amended the PB diagram, responding to feedback. The main consideration is making it into ....",
+  "rdfs:label": "Log Entry 17 - \"Smoke\" final version",
+  "resource:resources": [
+    {
+      "resource:web_resource_m": "Web_resource/Smoke_Film"
+    }
+  ],
+  "resource:uploaded_audio_r": [],
+  "resource:uploaded_image_r": []
 }

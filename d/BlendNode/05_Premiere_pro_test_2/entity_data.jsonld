@@ -1,30 +1,36 @@
 {
-  "rdfs:label": "Premiere Pro: transitions test 2",
-  "rdfs:comment": "Premiere Pro transitions test 2",
-  "coll:resources": [
+  "@context": [
     {
-      "coll:web_resource_m": "Web_resource/Fog_video_test2"
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "BlendNode/05_Premiere_pro_test_2",
+  "@type": [
+    "pb:BlendNode",
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:id": "05_Premiere_pro_test_2",
+  "annal:type": "pb:BlendNode",
+  "annal:type_id": "BlendNode",
+  "journal:refs": [
+    {
+      "annal:member": "Journal/00000005"
     }
   ],
-  "annal:type_id": "BlendNode",
   "pb:generated": [],
   "pb:used": [
     {
       "annal:member": "BlendNode/04_Transitions_test_1"
     }
   ],
-  "annal:type": "annal:EntityData",
-  "annal:id": "05_Premiere_pro_test_2",
-  "@id": "./",
-  "@type": [
-    "pb:BlendNode",
-    "pb:BlendInput",
-    "pb:ProceduralNode",
-    "annal:EntityData"
-  ],
-  "annal:member": [
+  "rdfs:comment": "Premiere Pro transitions test 2",
+  "rdfs:label": "Premiere Pro: transitions test 2",
+  "resource:resources": [
     {
-      "annal:member": "Journal/00000005"
+      "resource:web_resource_m": "Web_resource/Fog_video_test2"
     }
   ]
 }

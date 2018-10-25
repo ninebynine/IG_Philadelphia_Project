@@ -1,8 +1,25 @@
 {
-  "rdfs:label": "Decision to make just 1 film",
-  "rdfs:comment": "Decision to make just 1 film at this stage",
-  "coll:resources": [],
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "BlendNode/06_Decide_1_film",
+  "@type": [
+    "pb:BlendNode",
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:id": "06_Decide_1_film",
+  "annal:type": "pb:BlendNode",
   "annal:type_id": "BlendNode",
+  "journal:refs": [
+    {
+      "annal:member": "Journal/00000006"
+    }
+  ],
   "pb:generated": [],
   "pb:used": [
     {
@@ -12,18 +29,7 @@
       "annal:member": "ProceduralNode/06_U_Pittsburgh_response"
     }
   ],
-  "annal:type": "annal:EntityData",
-  "annal:id": "06_Decide_1_film",
-  "@id": "./",
-  "@type": [
-    "pb:BlendNode",
-    "pb:BlendInput",
-    "pb:ProceduralNode",
-    "annal:EntityData"
-  ],
-  "annal:member": [
-    {
-      "annal:member": "Journal/00000006"
-    }
-  ]
+  "rdfs:comment": "Decision to make just 1 film at this stage",
+  "rdfs:label": "Decision to make just 1 film",
+  "resource:resources": []
 }

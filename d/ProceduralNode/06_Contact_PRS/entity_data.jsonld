@@ -1,8 +1,24 @@
 {
-  "rdfs:label": "Contact PRS",
-  "rdfs:comment": "Contact PRS about music copyright for Smoke gets in your eyes and A foggy day\r\n\r\n@@ Inputs not exactly matching diagram\r\n",
-  "coll:resources": [],
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "ProceduralNode/06_Contact_PRS",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:id": "06_Contact_PRS",
+  "annal:type": "pb:ProceduralNode",
   "annal:type_id": "ProceduralNode",
+  "journal:refs": [
+    {
+      "annal:member": "Journal/00000006"
+    }
+  ],
   "pb:generated": [],
   "pb:used": [
     {
@@ -15,17 +31,7 @@
       "annal:member": "ProceduralNode/01_Researching_music_copyright"
     }
   ],
-  "annal:type": "annal:EntityData",
-  "annal:id": "06_Contact_PRS",
-  "@id": "./",
-  "@type": [
-    "pb:ProceduralNode",
-    "pb:BlendInput",
-    "annal:EntityData"
-  ],
-  "annal:member": [
-    {
-      "annal:member": "Journal/00000006"
-    }
-  ]
+  "rdfs:comment": "Contact PRS about music copyright for Smoke gets in your eyes and A foggy day\r\n\r\n@@ Inputs not exactly matching diagram\r\n",
+  "rdfs:label": "Contact PRS",
+  "resource:resources": []
 }

@@ -1,26 +1,32 @@
 {
-  "@id": "./",
-  "rdfs:label": "U Pittsburgh response re US images",
-  "rdfs:comment": "University of Pittsburgh, Smoke Control Archive response: OK to use Philadelphia images",
-  "coll:resources": [],
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "ProceduralNode/06_U_Pittsburgh_response",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:id": "06_U_Pittsburgh_response",
+  "annal:type": "pb:ProceduralNode",
   "annal:type_id": "ProceduralNode",
+  "journal:refs": [
+    {
+      "annal:member": "Journal/00000006"
+    }
+  ],
   "pb:generated": [],
   "pb:used": [
     {
       "annal:member": "ProceduralNode/05_Contact_U_Pittsburgh"
     }
   ],
-  "annal:member": [
-    {
-      "annal:member": "Journal/00000006"
-    }
-  ],
-  "annal:id": "06_U_Pittsburgh_response",
   "pb:wasGeneratedBy": "",
-  "@type": [
-    "pb:ProceduralNode",
-    "pb:BlendInput",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "University of Pittsburgh, Smoke Control Archive response: OK to use Philadelphia images",
+  "rdfs:label": "U Pittsburgh response re US images",
+  "resource:resources": []
 }

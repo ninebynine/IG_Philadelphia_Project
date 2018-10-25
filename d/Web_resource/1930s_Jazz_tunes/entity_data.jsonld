@@ -1,13 +1,19 @@
 {
-  "rdfs:label": "List of 1930s Jazz tunes",
-  "rdfs:comment": "A list of Jazz standards from the 1930s from wikipedia. Contains over 60 titles.",
-  "coll:web_resource": "https://en.wikipedia.org/wiki/List_of_1930s_jazz_standards",
-  "annal:type_id": "Web_resource",
-  "annal:id": "1930s_Jazz_tunes",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Web_resource/1930s_Jazz_tunes",
   "@type": [
-    "coll:Web_resource",
+    "resource:Web_resource",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "1930s_Jazz_tunes",
+  "annal:type": "resource:Web_resource",
+  "annal:type_id": "Web_resource",
+  "rdfs:comment": "A list of Jazz standards from the 1930s from wikipedia. Contains over 60 titles.",
+  "rdfs:label": "List of 1930s Jazz tunes",
+  "resource:web_resource": "https://en.wikipedia.org/wiki/List_of_1930s_jazz_standards"
 }

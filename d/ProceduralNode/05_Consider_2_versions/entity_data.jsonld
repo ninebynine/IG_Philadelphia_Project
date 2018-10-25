@@ -1,8 +1,24 @@
 {
-  "rdfs:label": "Consider 2 versions of film",
-  "rdfs:comment": "Have identified alternative music, and also noted that there are different archives holding US and London images.  Therefore consider making 2 separate films.",
-  "coll:resources": [],
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "ProceduralNode/05_Consider_2_versions",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:id": "05_Consider_2_versions",
+  "annal:type": "pb:ProceduralNode",
   "annal:type_id": "ProceduralNode",
+  "journal:refs": [
+    {
+      "annal:member": "Journal/00000005"
+    }
+  ],
   "pb:generated": [
     {
       "annal:member": ""
@@ -16,17 +32,7 @@
       "annal:member": "ProceduralNode/02_Music_idea_london"
     }
   ],
-  "annal:type": "annal:EntityData",
-  "annal:id": "05_Consider_2_versions",
-  "@id": "./",
-  "@type": [
-    "pb:ProceduralNode",
-    "pb:BlendInput",
-    "annal:EntityData"
-  ],
-  "annal:member": [
-    {
-      "annal:member": "Journal/00000005"
-    }
-  ]
+  "rdfs:comment": "Have identified alternative music, and also noted that there are different archives holding US and London images.  Therefore consider making 2 separate films.",
+  "rdfs:label": "Consider 2 versions of film",
+  "resource:resources": []
 }

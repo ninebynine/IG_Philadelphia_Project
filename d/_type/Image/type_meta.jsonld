@@ -1,0 +1,21 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Image",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "Image",
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "Uploaded_images",
+  "annal:type_view": "Uploaded_image",
+  "annal:uri": "annal:Image",
+  "rdfs:comment": "Image with bearing on the project",
+  "rdfs:label": "Uploaded image"
+}

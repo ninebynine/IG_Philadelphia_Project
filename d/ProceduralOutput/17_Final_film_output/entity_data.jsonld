@@ -1,25 +1,31 @@
 {
-  "rdfs:label": "Film as final output",
-  "rdfs:comment": "Film as final output of process",
-  "coll:resources": [
+  "@context": [
     {
-      "coll:web_resource_m": "Web_resource/Smoke_Film"
-    }
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
   ],
-  "annal:type_id": "ProceduralOutput",
-  "pb:generated": [],
-  "pb:used": [],
-  "annal:member": [
-    {
-      "annal:member": "Journal/00000017"
-    }
-  ],
-  "annal:id": "17_Final_film_output",
-  "@id": "./",
+  "@id": "ProceduralOutput/17_Final_film_output",
   "@type": [
     "pb:ProceduralOutput",
     "pb:BlendInput",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "17_Final_film_output",
+  "annal:type": "pb:ProceduralOutput",
+  "annal:type_id": "ProceduralOutput",
+  "journal:refs": [
+    {
+      "annal:member": "Journal/00000017"
+    }
+  ],
+  "pb:generated": [],
+  "pb:used": [],
+  "rdfs:comment": "Film as final output of process",
+  "rdfs:label": "Film as final output",
+  "resource:resources": [
+    {
+      "resource:web_resource_m": "Web_resource/Smoke_Film"
+    }
+  ]
 }

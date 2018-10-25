@@ -1,22 +1,28 @@
 {
-  "rdfs:label": "Smoke Control slideshow",
-  "rdfs:comment": "",
-  "coll:resources": [
+  "@context": [
     {
-      "coll:web_resource_m": "Web_resource/Smoke_Control_slideshow"
-    }
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
   ],
-  "annal:type_id": "BlendInput",
-  "annal:type": "annal:EntityData",
-  "annal:id": "01_Smoke_Control_slideshow",
-  "@id": "./",
+  "@id": "BlendInput/01_Smoke_Control_slideshow",
   "@type": [
     "pb:BlendInput",
     "annal:EntityData"
   ],
-  "annal:member": [
+  "annal:id": "01_Smoke_Control_slideshow",
+  "annal:type": "pb:BlendInput",
+  "annal:type_id": "BlendInput",
+  "journal:refs": [
     {
       "annal:member": "Journal/00000001"
+    }
+  ],
+  "rdfs:comment": "",
+  "rdfs:label": "Smoke Control slideshow",
+  "resource:resources": [
+    {
+      "resource:web_resource_m": "Web_resource/Smoke_Control_slideshow"
     }
   ]
 }

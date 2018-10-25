@@ -1,14 +1,20 @@
 {
-  "rdfs:label": "Past practice",
-  "rdfs:comment": "",
-  "coll:resources": [],
-  "annal:type_id": "BlendInput",
-  "annal:type": "annal:EntityData",
-  "annal:id": "00_Past_practice",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "BlendInput/00_Past_practice",
   "@type": [
     "pb:BlendInput",
     "annal:EntityData"
   ],
-  "annal:member": []
+  "annal:id": "00_Past_practice",
+  "annal:type": "pb:BlendInput",
+  "annal:type_id": "BlendInput",
+  "journal:refs": [],
+  "rdfs:comment": "",
+  "rdfs:label": "Past practice",
+  "resource:resources": []
 }

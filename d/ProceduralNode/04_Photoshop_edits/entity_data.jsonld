@@ -1,25 +1,31 @@
 {
-  "rdfs:label": "Photoshop edits",
-  "rdfs:comment": "Experimenting with possible transitions between still images.",
-  "coll:resources": [],
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "ProceduralNode/04_Photoshop_edits",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:id": "04_Photoshop_edits",
+  "annal:type": "pb:ProceduralNode",
   "annal:type_id": "ProceduralNode",
+  "journal:refs": [
+    {
+      "annal:member": "Journal/00000004"
+    }
+  ],
   "pb:generated": [],
   "pb:used": [
     {
       "annal:member": "ProceduralNode/03_Sketch_frame_flow"
     }
   ],
-  "annal:type": "annal:EntityData",
-  "annal:id": "04_Photoshop_edits",
-  "@id": "./",
-  "@type": [
-    "pb:ProceduralNode",
-    "pb:BlendInput",
-    "annal:EntityData"
-  ],
-  "annal:member": [
-    {
-      "annal:member": "Journal/00000004"
-    }
-  ]
+  "rdfs:comment": "Experimenting with possible transitions between still images.",
+  "rdfs:label": "Photoshop edits",
+  "resource:resources": []
 }

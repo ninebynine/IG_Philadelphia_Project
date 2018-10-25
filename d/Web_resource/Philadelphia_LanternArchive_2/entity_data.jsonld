@@ -1,13 +1,19 @@
 {
-  "rdfs:label": "Philadelphia Smoke Images 2",
-  "rdfs:comment": "A second set of images from the \"The Smoke Control Lantern Slide Collection\" at the University of Pittsburgh. Link to Archive.",
-  "coll:web_resource": "http://images.library.pitt.edu/cgi-bin/i/image/image-idx?q1=AIS.1978.22&rgn1=hpicasc_ci&type=boolean&med=1&view=thumbnail&cc=hpicasc",
-  "annal:type_id": "Web_resource",
-  "annal:id": "Philadelphia_LanternArchive_2",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Web_resource/Philadelphia_LanternArchive_2",
   "@type": [
-    "coll:Web_resource",
+    "resource:Web_resource",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Philadelphia_LanternArchive_2",
+  "annal:type": "resource:Web_resource",
+  "annal:type_id": "Web_resource",
+  "rdfs:comment": "A second set of images from the \"The Smoke Control Lantern Slide Collection\" at the University of Pittsburgh. Link to Archive.",
+  "rdfs:label": "Philadelphia Smoke Images 2",
+  "resource:web_resource": "http://images.library.pitt.edu/cgi-bin/i/image/image-idx?q1=AIS.1978.22&rgn1=hpicasc_ci&type=boolean&med=1&view=thumbnail&cc=hpicasc"
 }

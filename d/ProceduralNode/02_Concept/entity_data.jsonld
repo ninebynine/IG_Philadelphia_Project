@@ -1,26 +1,32 @@
 {
-  "@id": "./",
-  "rdfs:label": "Concept",
-  "rdfs:comment": "",
-  "coll:resources": [],
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "ProceduralNode/02_Concept",
+  "@type": [
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:id": "02_Concept",
+  "annal:type": "pb:ProceduralNode",
   "annal:type_id": "ProceduralNode",
+  "journal:refs": [
+    {
+      "annal:member": "Journal/00000002"
+    }
+  ],
   "pb:generated": [],
   "pb:used": [
     {
       "annal:member": "BlendNode/01_Smoke_film_decision"
     }
   ],
-  "annal:member": [
-    {
-      "annal:member": "Journal/00000002"
-    }
-  ],
-  "annal:id": "02_Concept",
   "pb:wasGeneratedBy": "BlendNode/Smoke_film_decision",
-  "@type": [
-    "pb:ProceduralNode",
-    "pb:BlendInput",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "",
+  "rdfs:label": "Concept",
+  "resource:resources": []
 }

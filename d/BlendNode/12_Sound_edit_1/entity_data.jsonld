@@ -1,26 +1,32 @@
 {
-  "rdfs:label": "Sound edit 1",
-  "rdfs:comment": "Sound edit 1",
-  "coll:resources": [],
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "BlendNode/12_Sound_edit_1",
+  "@type": [
+    "pb:BlendNode",
+    "pb:ProceduralNode",
+    "pb:BlendInput",
+    "annal:EntityData"
+  ],
+  "annal:id": "12_Sound_edit_1",
+  "annal:type": "pb:BlendNode",
   "annal:type_id": "BlendNode",
+  "journal:refs": [
+    {
+      "annal:member": "Journal/00000012"
+    }
+  ],
   "pb:generated": [],
   "pb:used": [
     {
       "annal:member": "ProceduralNode/11_Further_recordings"
     }
   ],
-  "annal:type": "annal:EntityData",
-  "annal:id": "12_Sound_edit_1",
-  "@id": "./",
-  "@type": [
-    "pb:BlendNode",
-    "pb:BlendInput",
-    "pb:ProceduralNode",
-    "annal:EntityData"
-  ],
-  "annal:member": [
-    {
-      "annal:member": "Journal/00000012"
-    }
-  ]
+  "rdfs:comment": "Sound edit 1",
+  "rdfs:label": "Sound edit 1",
+  "resource:resources": []
 }

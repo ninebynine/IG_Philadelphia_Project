@@ -1,19 +1,25 @@
 {
-  "rdfs:label": "Cropped version of London 1",
-  "rdfs:comment": "This is the cropped version of London 1.",
-  "annal:type_id": "Image",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Image/London_1_crop",
   "@type": [
-    "coll:Image",
+    "annal:Image",
     "annal:EntityData"
   ],
   "annal:id": "London_1_crop",
-  "@id": "./",
-  "coll:image": {
-    "upload_name": "Uploaded_image",
+  "annal:type": "annal:Image",
+  "annal:type_id": "Image",
+  "rdfs:comment": "This is the cropped version of London 1.",
+  "rdfs:label": "Cropped version of London 1",
+  "resource:uploaded_image": {
     "resource_name": "Uploaded_image.jpg",
-    "uploaded_size": 57863,
+    "resource_type": "image/jpeg",
+    "upload_name": "Uploaded_image",
     "uploaded_file": "London1sm.jpg",
-    "resource_type": "image/jpeg"
-  },
-  "annal:type": "annal:EntityData"
+    "uploaded_size": 57863
+  }
 }

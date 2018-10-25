@@ -1,19 +1,25 @@
 {
-  "rdfs:label": "PB Notes draft1a",
-  "rdfs:comment": "First set of notes for creating a PB graphic, part 1 of 3",
-  "annal:type_id": "Image",
-  "coll:image": {
-    "upload_name": "Uploaded_image",
-    "uploaded_size": 149239,
-    "resource_name": "Uploaded_image.jpg",
-    "uploaded_file": "Smoke-note1a.jpg",
-    "resource_type": "image/jpeg"
-  },
-  "annal:id": "Smoke_PBnotes_draft1a",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Image/Smoke_PBnotes_draft1a",
   "@type": [
-    "coll:Image",
+    "annal:Image",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Smoke_PBnotes_draft1a",
+  "annal:type": "annal:Image",
+  "annal:type_id": "Image",
+  "rdfs:comment": "First set of notes for creating a PB graphic, part 1 of 3",
+  "rdfs:label": "PB Notes draft1a",
+  "resource:uploaded_image": {
+    "resource_name": "Uploaded_image.jpg",
+    "resource_type": "image/jpeg",
+    "upload_name": "Uploaded_image",
+    "uploaded_file": "Smoke-note1a.jpg",
+    "uploaded_size": 149239
+  }
 }

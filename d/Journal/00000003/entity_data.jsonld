@@ -1,21 +1,27 @@
 {
-  "@id": "./",
-  "rdfs:label": "Log entry 3",
-  "rdfs:comment": "I have been thinking about how images may be linked together. One thought is that I could isolate a region of fog to serve as a link. This would be inserted between 2 images as illustrated in sketch 1.\r\n\r\nI've also thinking about what data is important to collect. I guess these could relate in some way to envisaged inputs [as in Procedural Blending (PB)]. \r\n\r\n## So far the categories I am considering are:\r\n\r\n+  log entry \r\n+  image collection \r\n+  sound collection \r\n  * location \r\n  * events [e.g. historical events] \r\n  * web links \r\n  * tools \r\n  * authorship (image credits, bibliographical data etc)\r\n\r\nThese all equate to inputs - in some way - as I would have thought about them so far. \r\n\r\n## So, how could these categories connect to inputs:\r\n\r\n+ log entry = writing inputs into my thinking\r\n+ image collection = photographs will be a direct input to the piece, in sketches I am working out ideas\r\n+ sound collection = sound is a direct input to the piece, see log entry 1 identified various sublements of element music \r\n+ location = location features in some respetcs e.g. images of London / Detroit\r\n+ events [e.g. historical events] = fog 152 London etc\r\n+ web links = I would normally regard the information contained in each link as possible inputs\r\n+ tools = tools are also an already identified PB input\r\n+ authorship (image credits, bibliographical data etc) = yes, books and other people are an input\r\n\r\nIn a way, 3 blend lines are also coming through so far: (1) the making of the piece, (2) thinking about data, (3) correlating Annalist with PB.\r\n\r\n\r\n## Things to do:\r\n+ need to download Premiere update.\r\n+ Revisit working with still images in Premier\r\n+ Try out frame-flow sketch in Premiere",
-  "coll:resources": [],
-  "annal:type_id": "Journal",
-  "coll:audio_clips": [],
-  "coll:date": "2015-08-08",
-  "coll:images": [
+  "@context": [
     {
-      "coll:Image": "sketch1"
-    }
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
   ],
-  "annal:id": "00000003",
-  "coll:date__2": "studio",
+  "@id": "Journal/00000003",
   "@type": [
-    "coll:Journal",
+    "journal:Journal",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "00000003",
+  "annal:type": "journal:Journal",
+  "annal:type_id": "Journal",
+  "journal:date": "2015-08-08",
+  "journal:location": "studio",
+  "rdfs:comment": "I have been thinking about how images may be linked together. One thought is that I could isolate a region of fog to serve as a link. This would be inserted between 2 images as illustrated in sketch 1.\r\n\r\nI've also thinking about what data is important to collect. I guess these could relate in some way to envisaged inputs [as in Procedural Blending (PB)]. \r\n\r\n## So far the categories I am considering are:\r\n\r\n+  log entry \r\n+  image collection \r\n+  sound collection \r\n  * location \r\n  * events [e.g. historical events] \r\n  * web links \r\n  * tools \r\n  * authorship (image credits, bibliographical data etc)\r\n\r\nThese all equate to inputs - in some way - as I would have thought about them so far. \r\n\r\n## So, how could these categories connect to inputs:\r\n\r\n+ log entry = writing inputs into my thinking\r\n+ image collection = photographs will be a direct input to the piece, in sketches I am working out ideas\r\n+ sound collection = sound is a direct input to the piece, see log entry 1 identified various sublements of element music \r\n+ location = location features in some respetcs e.g. images of London / Detroit\r\n+ events [e.g. historical events] = fog 152 London etc\r\n+ web links = I would normally regard the information contained in each link as possible inputs\r\n+ tools = tools are also an already identified PB input\r\n+ authorship (image credits, bibliographical data etc) = yes, books and other people are an input\r\n\r\nIn a way, 3 blend lines are also coming through so far: (1) the making of the piece, (2) thinking about data, (3) correlating Annalist with PB.\r\n\r\n\r\n## Things to do:\r\n+ need to download Premiere update.\r\n+ Revisit working with still images in Premier\r\n+ Try out frame-flow sketch in Premiere",
+  "rdfs:label": "Log entry 3",
+  "resource:resources": [],
+  "resource:uploaded_audio_r": [],
+  "resource:uploaded_image_r": [
+    {
+      "resource:uploaded_image_m": "sketch1"
+    }
+  ]
 }

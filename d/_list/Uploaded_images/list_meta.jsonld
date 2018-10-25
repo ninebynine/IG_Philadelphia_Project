@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/Uploaded_images",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "Image",
+  "annal:default_view": "Default_view",
+  "annal:display_type": "_enum_list_type/List",
+  "annal:id": "Uploaded_images",
+  "annal:list_entity_selector": "\"annal:Image\" in [@type]",
+  "annal:list_entity_type": "annal:Image",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "Entity_label",
+      "annal:field_placement": "small:3,9"
+    }
+  ],
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "rdfs:comment": "List of uploaded images",
+  "rdfs:label": "List of uploaded images"
+}

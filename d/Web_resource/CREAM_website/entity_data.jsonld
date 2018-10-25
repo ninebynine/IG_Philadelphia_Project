@@ -1,13 +1,19 @@
 {
-  "rdfs:label": "CREAM website",
-  "rdfs:comment": "This is the website of the \"Collaboration for Research Enhancement by Active Metadata\" (CREAM), funded by JISC",
-  "coll:web_resource": "https://blog.soton.ac.uk/cream",
-  "annal:type_id": "Web_resource",
-  "annal:id": "CREAM_website",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Web_resource/CREAM_website",
   "@type": [
-    "coll:Web_resource",
+    "resource:Web_resource",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "CREAM_website",
+  "annal:type": "resource:Web_resource",
+  "annal:type_id": "Web_resource",
+  "rdfs:comment": "This is the website of the \"Collaboration for Research Enhancement by Active Metadata\" (CREAM), funded by JISC",
+  "rdfs:label": "CREAM website",
+  "resource:web_resource": "https://blog.soton.ac.uk/cream"
 }

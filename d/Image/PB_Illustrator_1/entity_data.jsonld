@@ -1,19 +1,25 @@
 {
-  "rdfs:label": "First illustrator draft of BF1",
-  "rdfs:comment": "This image the a first draft in illustrator of blend field 1, based on the initial hand written notes,.",
-  "annal:type_id": "Image",
-  "coll:image": {
-    "upload_name": "Uploaded_image",
-    "uploaded_size": 52682,
-    "resource_name": "Uploaded_image.png",
-    "uploaded_file": "Smoke-PBdraft-Illus1.png",
-    "resource_type": "image/png"
-  },
-  "annal:id": "PB_Illustrator_1",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Image/PB_Illustrator_1",
   "@type": [
-    "coll:Image",
+    "annal:Image",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "PB_Illustrator_1",
+  "annal:type": "annal:Image",
+  "annal:type_id": "Image",
+  "rdfs:comment": "This image the a first draft in illustrator of blend field 1, based on the initial hand written notes,.",
+  "rdfs:label": "First illustrator draft of BF1",
+  "resource:uploaded_image": {
+    "resource_name": "Uploaded_image.png",
+    "resource_type": "image/png",
+    "upload_name": "Uploaded_image",
+    "uploaded_file": "Smoke-PBdraft-Illus1.png",
+    "uploaded_size": 52682
+  }
 }

@@ -1,13 +1,19 @@
 {
-  "rdfs:label": "First Full Draft on Youtube",
-  "rdfs:comment": "A link to the first full draft of \"Smoke Gets in your Eyes\" on YouTube. ",
-  "coll:web_resource": "http://youtu.be/j3n0muR7ePA",
-  "annal:type_id": "Web_resource",
-  "annal:id": "Smoke_FullDraft1",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Web_resource/Smoke_FullDraft1",
   "@type": [
-    "coll:Web_resource",
+    "resource:Web_resource",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Smoke_FullDraft1",
+  "annal:type": "resource:Web_resource",
+  "annal:type_id": "Web_resource",
+  "rdfs:comment": "A link to the first full draft of \"Smoke Gets in your Eyes\" on YouTube. ",
+  "rdfs:label": "First Full Draft on Youtube",
+  "resource:web_resource": "http://youtu.be/j3n0muR7ePA"
 }
